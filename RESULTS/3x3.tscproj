@@ -252,7 +252,7 @@
     "sceneTrack" : {
       "scenes" : [
         {
-          "duration" : 13.0,
+          "duration" : 14.0,
           "title" : "",
           "type" : "",
           "csml" : {
@@ -260,19 +260,14 @@
               {
                 "trackIndex" : 0,
                 "medias" : [
-                ]
-              },
-              {
-                "trackIndex" : 1,
-                "medias" : [
                   {
                     "id" : 15,
                     "_type" : "IMFile",
-                    "src" : 1,
+                    "src" : 13,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "0"
+                      "ident" : "12"
                     },
                     "effects" : [
 
@@ -293,11 +288,11 @@
                   {
                     "id" : 16,
                     "_type" : "IMFile",
-                    "src" : 2,
+                    "src" : 12,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "1"
+                      "ident" : "11"
                     },
                     "effects" : [
 
@@ -318,11 +313,11 @@
                   {
                     "id" : 17,
                     "_type" : "IMFile",
-                    "src" : 3,
+                    "src" : 11,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "2"
+                      "ident" : "10"
                     },
                     "effects" : [
 
@@ -343,11 +338,11 @@
                   {
                     "id" : 18,
                     "_type" : "IMFile",
-                    "src" : 4,
+                    "src" : 10,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "3"
+                      "ident" : "9"
                     },
                     "effects" : [
 
@@ -368,11 +363,11 @@
                   {
                     "id" : 19,
                     "_type" : "IMFile",
-                    "src" : 5,
+                    "src" : 9,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "4"
+                      "ident" : "8"
                     },
                     "effects" : [
 
@@ -393,11 +388,11 @@
                   {
                     "id" : 20,
                     "_type" : "IMFile",
-                    "src" : 6,
+                    "src" : 8,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "5"
+                      "ident" : "7"
                     },
                     "effects" : [
 
@@ -443,11 +438,11 @@
                   {
                     "id" : 22,
                     "_type" : "IMFile",
-                    "src" : 8,
+                    "src" : 6,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "7"
+                      "ident" : "5"
                     },
                     "effects" : [
 
@@ -468,11 +463,11 @@
                   {
                     "id" : 23,
                     "_type" : "IMFile",
-                    "src" : 9,
+                    "src" : 5,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "8"
+                      "ident" : "4"
                     },
                     "effects" : [
 
@@ -493,11 +488,11 @@
                   {
                     "id" : 24,
                     "_type" : "IMFile",
-                    "src" : 10,
+                    "src" : 4,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "9"
+                      "ident" : "3"
                     },
                     "effects" : [
 
@@ -518,11 +513,11 @@
                   {
                     "id" : 25,
                     "_type" : "IMFile",
-                    "src" : 11,
+                    "src" : 3,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "10"
+                      "ident" : "2"
                     },
                     "effects" : [
 
@@ -543,11 +538,11 @@
                   {
                     "id" : 26,
                     "_type" : "IMFile",
-                    "src" : 12,
+                    "src" : 2,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "11"
+                      "ident" : "1"
                     },
                     "effects" : [
 
@@ -568,11 +563,11 @@
                   {
                     "id" : 27,
                     "_type" : "IMFile",
-                    "src" : 13,
+                    "src" : 1,
                     "trackNumber" : 0,
                     "trimStartSum" : 0,
                     "attributes" : {
-                      "ident" : "12"
+                      "ident" : "0"
                     },
                     "effects" : [
 
@@ -589,6 +584,199 @@
                     "animationTracks" : {
 
                     }
+                  },
+                  {
+                    "id" : 28,
+                    "_type" : "IMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "trimStartSum" : 0,
+                    "attributes" : {
+                      "ident" : "0"
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 390,
+                    "duration" : 30,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 1,
+                "medias" : [
+                  {
+                    "id" : 29,
+                    "_type" : "Callout",
+                    "def" : {
+                      "kind" : "TypeWinHighlighter",
+                      "shape" : "",
+                      "style" : "",
+                      "Style" : 5.0,
+                      "dimensionTime" : 0.0,
+                      "fill-color-opacity" : 0.3,
+                      "fill-invert" : 0.0,
+                      "fillColorBlue" : 0.172549019607843,
+                      "fillColorGreen" : 0.615686274509804,
+                      "fillColorRed" : 0.105882352941176,
+                      "height" : 120.0,
+                      "textIgnoresOpacity" : 0.0,
+                      "textRectHeight" : 1.0,
+                      "textRectWidth" : 1.0,
+                      "textRectX" : 0.0,
+                      "textRectY" : 0.0,
+                      "textVerticalAlign" : 0.0,
+                      "width" : 160.0,
+                      "filename" : "C:\\Program Files\\TechSmith\\Camtasia 9\\Media\\Studio\\Callouts\\highlighter_100x100.xml",
+                      "horizontal-alignment" : "center",
+                      "name" : "Highlighter",
+                      "text" : "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}}{\\colortbl ;\\red0\\green0\\blue0;}\\viewkind4\\uc1\\pard\\qc\\cf1\\fs72  }",
+                      "vertical-alignment" : "center",
+                      "xmlContent" : "﻿<?xml version=\"1.0\"?>\n\n<Overlay version=\"1.0.1\">\n\n<Overlay_Filename>highlighter_100x100.png</Overlay_Filename>\n<Overlay_Name>Highlighter</Overlay_Name>\n<Text_Top>0</Text_Top>\n<Text_Left>0</Text_Left>\n<Text_Bottom>0</Text_Bottom>\n<Text_Right>0</Text_Right>\n<Fill_Color>1</Fill_Color>\n<Border_Color>0</Border_Color>\n</Overlay>",
+                      "textAttributes" : {
+                        "type" : "textAttributeList",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : null,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "attributes" : {
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : -70.4298043133148,
+                        "keyframes" : [
+                          {
+                            "time" : 47,
+                            "value" : -6.56843279213815,
+                            "duration" : 30
+                          }
+                        ]
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : -52.7275412648764,
+                        "keyframes" : [
+                          {
+                            "time" : 47,
+                            "value" : 0.370370446784406,
+                            "duration" : 30
+                          }
+                        ]
+                      },
+                      "rotation2" : 0.693629236800839,
+                      "scale0" : {
+                        "type" : "double",
+                        "defaultValue" : 1.40028878300746,
+                        "keyframes" : [
+                          {
+                            "time" : 47,
+                            "value" : 2.43844091244715,
+                            "duration" : 30
+                          }
+                        ]
+                      },
+                      "scale1" : 0.40949534822468,
+                      "opacity" : 0.999999999999999
+                    },
+                    "effects" : [
+                        {
+                          "_type" : "GenericBehaviorEffect",
+                          "effectName" : "fade",
+                          "start" : -13,
+                          "duration" : 360                        ,
+                          "in" : {
+                            "attributes" : {
+                              "name" : "fadeIn",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : 18,
+                              "overlapProportion" : 0,
+                              "movement" : 0,
+                              "springDamping" : 5.0,
+                              "springStiffness" : 50.0,
+                              "bounceBounciness" : 0.45
+                            }
+                          
+                          },
+                          "center" : {
+                            "attributes" : {
+                              "name" : "none",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : 0,
+                              "secondsPerLoop" : 1,
+                              "numberOfLoops" : -1,
+                              "delayBetweenLoops" : 0,
+                              "offsetBetweenCharacters" : 0
+                            }
+                          
+                          },
+                          "out" : {
+                            "attributes" : {
+                              "name" : "fadeOut",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : 18,
+                              "overlapProportion" : 0,
+                              "movement" : 0,
+                              "springDamping" : 5.0,
+                              "springStiffness" : 50.0,
+                              "bounceBounciness" : 0.45
+                            }
+                          
+                          },
+                          "metadata" : {
+                            "default-behavior-in-duration" : 30.0,
+                            "default-behavior-out-duration" : 30.0,
+                            "default-behavior-out-style" : "fadeOut"
+                          }
+                        }
+                    ],
+                    "start" : 30,
+                    "duration" : 360,
+                    "mediaStart" : -13,
+                    "mediaDuration" : 360,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-fill-color-blue" : 0.0,
+                      "default-fill-color-green" : 1.0,
+                      "default-fill-color-opacity" : 1.0,
+                      "default-fill-color-red" : 1.0,
+                      "default-opacity" : 1.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    },
+                    "animationTracks" : {
+                      "visual" : [
+                        {
+                          "range" : [ 47, 30]
+                        }
+                      ]
+                    }
                   }
                 ]
               },
@@ -596,7 +784,184 @@
                 "trackIndex" : 2,
                 "medias" : [
                   {
-                    "id" : 28,
+                    "id" : 30,
+                    "_type" : "Callout",
+                    "def" : {
+                      "kind" : "TypeWinHighlighter",
+                      "shape" : "",
+                      "style" : "",
+                      "Style" : 5.0,
+                      "dimensionTime" : 0.0,
+                      "fill-color-opacity" : 0.3,
+                      "fill-invert" : 0.0,
+                      "fillColorBlue" : 0.537254901960784,
+                      "fillColorGreen" : 0.133333333333333,
+                      "fillColorRed" : 0.388235294117647,
+                      "height" : 120.0,
+                      "textIgnoresOpacity" : 0.0,
+                      "textRectHeight" : 1.0,
+                      "textRectWidth" : 1.0,
+                      "textRectX" : 0.0,
+                      "textRectY" : 0.0,
+                      "textVerticalAlign" : 0.0,
+                      "width" : 160.0,
+                      "filename" : "C:\\Program Files\\TechSmith\\Camtasia 9\\Media\\Studio\\Callouts\\highlighter_100x100.xml",
+                      "horizontal-alignment" : "center",
+                      "name" : "Highlighter",
+                      "text" : "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}}{\\colortbl ;\\red0\\green0\\blue0;}\\viewkind4\\uc1\\pard\\qc\\cf1\\fs72  }",
+                      "vertical-alignment" : "center",
+                      "xmlContent" : "﻿<?xml version=\"1.0\"?>\n\n<Overlay version=\"1.0.1\">\n\n<Overlay_Filename>highlighter_100x100.png</Overlay_Filename>\n<Overlay_Name>Highlighter</Overlay_Name>\n<Text_Top>0</Text_Top>\n<Text_Left>0</Text_Left>\n<Text_Bottom>0</Text_Bottom>\n<Text_Right>0</Text_Right>\n<Fill_Color>1</Fill_Color>\n<Border_Color>0</Border_Color>\n</Overlay>",
+                      "textAttributes" : {
+                        "type" : "textAttributeList",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : null,
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "attributes" : {
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : 69.9771619103885,
+                        "keyframes" : [
+                          {
+                            "time" : 47,
+                            "value" : 129.905715021451,
+                            "duration" : 30
+                          }
+                        ]
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : -147.031534008472,
+                        "keyframes" : [
+                          {
+                            "time" : 47,
+                            "value" : -95.5858231725634,
+                            "duration" : 30
+                          }
+                        ]
+                      },
+                      "rotation2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.670206432765822,
+                        "keyframes" : [
+                          {
+                            "time" : 47,
+                            "value" : 0.669392393644077,
+                            "duration" : 30
+                          }
+                        ]
+                      },
+                      "scale0" : {
+                        "type" : "double",
+                        "defaultValue" : 1.37619127235022,
+                        "keyframes" : [
+                          {
+                            "time" : 47,
+                            "value" : 2.31369036193333,
+                            "duration" : 30
+                          }
+                        ]
+                      },
+                      "scale1" : 0.40949534822468
+                    },
+                    "effects" : [
+                        {
+                          "_type" : "GenericBehaviorEffect",
+                          "effectName" : "fade",
+                          "start" : -13,
+                          "duration" : 330                        ,
+                          "in" : {
+                            "attributes" : {
+                              "name" : "fadeIn",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : 18,
+                              "overlapProportion" : 0,
+                              "movement" : 0,
+                              "springDamping" : 5.0,
+                              "springStiffness" : 50.0,
+                              "bounceBounciness" : 0.45
+                            }
+                          
+                          },
+                          "center" : {
+                            "attributes" : {
+                              "name" : "none",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : 0,
+                              "secondsPerLoop" : 1,
+                              "numberOfLoops" : -1,
+                              "delayBetweenLoops" : 0,
+                              "offsetBetweenCharacters" : 0
+                            }
+                          
+                          },
+                          "out" : {
+                            "attributes" : {
+                              "name" : "fadeOut",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : 18,
+                              "overlapProportion" : 0,
+                              "movement" : 0,
+                              "springDamping" : 5.0,
+                              "springStiffness" : 50.0,
+                              "bounceBounciness" : 0.45
+                            }
+                          
+                          },
+                          "metadata" : {
+                            "default-behavior-in-duration" : 30.0,
+                            "default-behavior-out-duration" : 30.0,
+                            "default-behavior-out-style" : "fadeOut"
+                          }
+                        }
+                    ],
+                    "start" : 60,
+                    "duration" : 330,
+                    "mediaStart" : -13,
+                    "mediaDuration" : 330,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-fill-color-blue" : 0.0,
+                      "default-fill-color-green" : 1.0,
+                      "default-fill-color-opacity" : 1.0,
+                      "default-fill-color-red" : 1.0,
+                      "default-opacity" : 1.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    },
+                    "animationTracks" : {
+                      "visual" : [
+                        {
+                          "range" : [ 47, 30]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 3,
+                "medias" : [
+                  {
+                    "id" : 31,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "TypeWinHighlighter",
@@ -618,185 +983,21 @@
                       "textVerticalAlign" : 0.0,
                       "width" : 160.0,
                       "filename" : "C:\\Program Files\\TechSmith\\Camtasia 9\\Media\\Studio\\Callouts\\highlighter_100x100.xml",
+                      "horizontal-alignment" : "center",
                       "name" : "Highlighter",
                       "text" : "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}}{\\colortbl ;\\red0\\green0\\blue0;}\\viewkind4\\uc1\\pard\\qc\\cf1\\fs72  }",
-                      "xmlContent" : "﻿<?xml version=\"1.0\"?>\n\n<Overlay version=\"1.0.1\">\n\n<Overlay_Filename>highlighter_100x100.png</Overlay_Filename>\n<Overlay_Name>Highlighter</Overlay_Name>\n<Text_Top>0</Text_Top>\n<Text_Left>0</Text_Left>\n<Text_Bottom>0</Text_Bottom>\n<Text_Right>0</Text_Right>\n<Fill_Color>1</Fill_Color>\n<Border_Color>0</Border_Color>\n</Overlay>"
-                    },
-                    "attributes" : {
-                      "autoRotateText" : true
-                    },
-                    "parameters" : {
-                      "translation0" : -136.447390504547,
-                      "translation1" : 99.1007349472222,
-                      "rotation2" : 0.649441886191886,
-                      "scale0" : 2.32883959379217,
-                      "scale1" : 0.354834333017222
-                    },
-                    "effects" : [
-                        {
-                          "_type" : "GenericBehaviorEffect",
-                          "effectName" : "fade",
-                          "start" : 17,
-                          "duration" : 270                        ,
-                          "in" : {
-                            "attributes" : {
-                              "name" : "fadeIn",
-                              "type" : 0,
-                              "characterOrder" : 6,
-                              "offsetBetweenCharacters" : "3/2",
-                              "suggestedDurationPerCharacter" : 30,
-                              "overlapProportion" : 0,
-                              "movement" : 0,
-                              "springDamping" : 5.0,
-                              "springStiffness" : 50.0,
-                              "bounceBounciness" : 0.45
-                            }
-                          
-                          },
-                          "center" : {
-                            "attributes" : {
-                              "name" : "none",
-                              "type" : 0,
-                              "characterOrder" : 6,
-                              "offsetBetweenCharacters" : 0,
-                              "secondsPerLoop" : 1,
-                              "numberOfLoops" : -1,
-                              "delayBetweenLoops" : 0,
-                              "offsetBetweenCharacters" : 0
-                            }
-                          
-                          },
-                          "out" : {
-                            "attributes" : {
-                              "name" : "none",
-                              "type" : 0,
-                              "characterOrder" : 6,
-                              "offsetBetweenCharacters" : 0,
-                              "suggestedDurationPerCharacter" : 0,
-                              "overlapProportion" : 0,
-                              "movement" : -1,
-                              "springDamping" : 5.0,
-                              "springStiffness" : 50.0,
-                              "bounceBounciness" : 0.45
-                            }
-                          
-                          },
-                          "metadata" : {
-                            "default-behavior-in-style" : "fadeIn",
-                            "default-behavior-out-style" : "fadeOut"
+                      "vertical-alignment" : "center",
+                      "xmlContent" : "﻿<?xml version=\"1.0\"?>\n\n<Overlay version=\"1.0.1\">\n\n<Overlay_Filename>highlighter_100x100.png</Overlay_Filename>\n<Overlay_Name>Highlighter</Overlay_Name>\n<Text_Top>0</Text_Top>\n<Text_Left>0</Text_Left>\n<Text_Bottom>0</Text_Bottom>\n<Text_Right>0</Text_Right>\n<Fill_Color>1</Fill_Color>\n<Border_Color>0</Border_Color>\n</Overlay>",
+                      "textAttributes" : {
+                        "type" : "textAttributeList",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : null,
+                            "duration" : 0
                           }
-                        }
-                    ],
-                    "start" : 120,
-                    "duration" : 270,
-                    "mediaStart" : 17,
-                    "mediaDuration" : 270,
-                    "scalar" : 1,
-                    "metadata" : {
-                      "WinSubProjectDisplayName" : "",
-                      "clipSpeedAttribute" : false,
-                      "default-fill-color-blue" : 0.0,
-                      "default-fill-color-green" : 1.0,
-                      "default-fill-color-opacity" : 1.0,
-                      "default-fill-color-red" : 1.0,
-                      "default-opacity" : 1.0,
-                      "default-rotation2" : 0.0,
-                      "default-scale0" : 1.0,
-                      "default-scale1" : 1.0,
-                      "default-translation0" : 0.0,
-                      "default-translation1" : 0.0
-                    },
-                    "animationTracks" : {
-
-                    }
-                  }
-                ]
-              },
-              {
-                "trackIndex" : 3,
-                "medias" : [
-                  {
-                    "id" : 29,
-                    "_type" : "Callout",
-                    "def" : {
-                      "kind" : "TypeWinHighlighter",
-                      "shape" : "",
-                      "style" : "",
-                      "Style" : {
-                        "type" : "double",
-                        "defaultValue" : 5.0,
-                        "interp" : "linr"
-                      },
-                      "dimensionTime" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "fill-color-opacity" : {
-                        "type" : "double",
-                        "defaultValue" : 0.3,
-                        "interp" : "linr"
-                      },
-                      "fill-invert" : 0.0,
-                      "fillColorBlue" : {
-                        "type" : "double",
-                        "defaultValue" : 0.172549019607843,
-                        "interp" : "linr"
-                      },
-                      "fillColorGreen" : {
-                        "type" : "double",
-                        "defaultValue" : 0.615686274509804,
-                        "interp" : "linr"
-                      },
-                      "fillColorRed" : {
-                        "type" : "double",
-                        "defaultValue" : 0.105882352941176,
-                        "interp" : "linr"
-                      },
-                      "height" : {
-                        "type" : "double",
-                        "defaultValue" : 120.0,
-                        "interp" : "linr"
-                      },
-                      "textIgnoresOpacity" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "textRectHeight" : {
-                        "type" : "double",
-                        "defaultValue" : 1.0,
-                        "interp" : "linr"
-                      },
-                      "textRectWidth" : {
-                        "type" : "double",
-                        "defaultValue" : 1.0,
-                        "interp" : "linr"
-                      },
-                      "textRectX" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "textRectY" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "textVerticalAlign" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "width" : {
-                        "type" : "double",
-                        "defaultValue" : 160.0,
-                        "interp" : "linr"
-                      },
-                      "filename" : "C:\\Program Files\\TechSmith\\Camtasia 9\\Media\\Studio\\Callouts\\highlighter_100x100.xml",
-                      "name" : "Highlighter",
-                      "text" : "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}}{\\colortbl ;\\red0\\green0\\blue0;}\\viewkind4\\uc1\\pard\\qc\\cf1\\fs72  }",
-                      "xmlContent" : "﻿<?xml version=\"1.0\"?>\n\n<Overlay version=\"1.0.1\">\n\n<Overlay_Filename>highlighter_100x100.png</Overlay_Filename>\n<Overlay_Name>Highlighter</Overlay_Name>\n<Text_Top>0</Text_Top>\n<Text_Left>0</Text_Left>\n<Text_Bottom>0</Text_Bottom>\n<Text_Right>0</Text_Right>\n<Fill_Color>1</Fill_Color>\n<Border_Color>0</Border_Color>\n</Overlay>"
+                        ]
+                      }
                     },
                     "attributes" : {
                       "autoRotateText" : true
@@ -804,48 +1005,53 @@
                     "parameters" : {
                       "translation0" : {
                         "type" : "double",
-                        "defaultValue" : -0.536103927733954,
-                        "interp" : "eioe"
+                        "defaultValue" : -201.340398254976,
+                        "keyframes" : [
+                          {
+                            "time" : 52,
+                            "value" : -136.330217905982,
+                            "duration" : 25
+                          }
+                        ]
                       },
                       "translation1" : {
                         "type" : "double",
-                        "defaultValue" : 2.08363779035851,
-                        "interp" : "eioe"
+                        "defaultValue" : 49.8259090232724,
+                        "keyframes" : [
+                          {
+                            "time" : 52,
+                            "value" : 99.1897069273708,
+                            "duration" : 25
+                          }
+                        ]
                       },
-                      "rotation2" : {
-                        "type" : "double",
-                        "defaultValue" : 0.67231655607806,
-                        "interp" : "eioe"
-                      },
+                      "rotation2" : 0.649441886191886,
                       "scale0" : {
                         "type" : "double",
-                        "defaultValue" : 2.46852603093775,
-                        "interp" : "eioe"
+                        "defaultValue" : 1.31033034887119,
+                        "keyframes" : [
+                          {
+                            "time" : 52,
+                            "value" : 2.33067864208145,
+                            "duration" : 25
+                          }
+                        ]
                       },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 0.40949534822468,
-                        "interp" : "eioe"
-                      },
-                      "opacity" : {
-                        "type" : "double",
-                        "defaultValue" : 0.999999999999999,
-                        "interp" : "linr"
-                      }
+                      "scale1" : 0.354834333017222
                     },
                     "effects" : [
                         {
                           "_type" : "GenericBehaviorEffect",
                           "effectName" : "fade",
-                          "start" : -13,
-                          "duration" : 150                        ,
+                          "start" : 17,
+                          "duration" : 180                        ,
                           "in" : {
                             "attributes" : {
                               "name" : "fadeIn",
                               "type" : 0,
                               "characterOrder" : 6,
                               "offsetBetweenCharacters" : "3/2",
-                              "suggestedDurationPerCharacter" : 30,
+                              "suggestedDurationPerCharacter" : 18,
                               "overlapProportion" : 0,
                               "movement" : 0,
                               "springDamping" : 5.0,
@@ -869,13 +1075,13 @@
                           },
                           "out" : {
                             "attributes" : {
-                              "name" : "none",
+                              "name" : "fadeOut",
                               "type" : 0,
                               "characterOrder" : 6,
-                              "offsetBetweenCharacters" : 0,
-                              "suggestedDurationPerCharacter" : 0,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : 18,
                               "overlapProportion" : 0,
-                              "movement" : -1,
+                              "movement" : 0,
                               "springDamping" : 5.0,
                               "springStiffness" : 50.0,
                               "bounceBounciness" : 0.45
@@ -883,14 +1089,17 @@
                           
                           },
                           "metadata" : {
+                            "default-behavior-in-duration" : 30.0,
+                            "default-behavior-in-style" : "fadeIn",
+                            "default-behavior-out-duration" : 30.0,
                             "default-behavior-out-style" : "fadeOut"
                           }
                         }
                     ],
-                    "start" : 240,
-                    "duration" : 150,
-                    "mediaStart" : -13,
-                    "mediaDuration" : 150,
+                    "start" : 210,
+                    "duration" : 180,
+                    "mediaStart" : 17,
+                    "mediaDuration" : 180,
                     "scalar" : 1,
                     "metadata" : {
                       "WinSubProjectDisplayName" : "",
@@ -907,7 +1116,11 @@
                       "default-translation1" : 0.0
                     },
                     "animationTracks" : {
-
+                      "visual" : [
+                        {
+                          "range" : [ 52, 25]
+                        }
+                      ]
                     }
                   }
                 ]
@@ -916,123 +1129,66 @@
                 "trackIndex" : 4,
                 "medias" : [
                   {
-                    "id" : 30,
+                    "id" : 32,
                     "_type" : "Callout",
                     "def" : {
-                      "kind" : "TypeWinHighlighter",
-                      "shape" : "",
-                      "style" : "",
-                      "Style" : {
-                        "type" : "double",
-                        "defaultValue" : 5.0,
-                        "interp" : "linr"
+                      "kind" : "remix",
+                      "shape" : "text",
+                      "style" : "basic",
+                      "height" : 43.0607423091977,
+                      "width" : 134.893574886013,
+                      "word-wrap" : 1.0,
+                      "horizontal-alignment" : "center",
+                      "text" : "Multipart\rComponent 1",
+                      "vertical-alignment" : "center",
+                      "font" : {
+                        "color-blue" : 1.0,
+                        "color-green" : 1.0,
+                        "color-red" : 1.0,
+                        "size" : 64.0,
+                        "tracking" : 0.0,
+                        "name" : "Montserrat",
+                        "weight" : "Regular"
                       },
-                      "dimensionTime" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "fill-color-opacity" : {
-                        "type" : "double",
-                        "defaultValue" : 0.3,
-                        "interp" : "linr"
-                      },
-                      "fill-invert" : 0.0,
-                      "fillColorBlue" : {
-                        "type" : "double",
-                        "defaultValue" : 0.537254901960784,
-                        "interp" : "linr"
-                      },
-                      "fillColorGreen" : {
-                        "type" : "double",
-                        "defaultValue" : 0.133333333333333,
-                        "interp" : "linr"
-                      },
-                      "fillColorRed" : {
-                        "type" : "double",
-                        "defaultValue" : 0.388235294117647,
-                        "interp" : "linr"
-                      },
-                      "height" : {
-                        "type" : "double",
-                        "defaultValue" : 120.0,
-                        "interp" : "linr"
-                      },
-                      "textIgnoresOpacity" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "textRectHeight" : {
-                        "type" : "double",
-                        "defaultValue" : 1.0,
-                        "interp" : "linr"
-                      },
-                      "textRectWidth" : {
-                        "type" : "double",
-                        "defaultValue" : 1.0,
-                        "interp" : "linr"
-                      },
-                      "textRectX" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "textRectY" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "textVerticalAlign" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "linr"
-                      },
-                      "width" : {
-                        "type" : "double",
-                        "defaultValue" : 160.0,
-                        "interp" : "linr"
-                      },
-                      "filename" : "C:\\Program Files\\TechSmith\\Camtasia 9\\Media\\Studio\\Callouts\\highlighter_100x100.xml",
-                      "name" : "Highlighter",
-                      "text" : "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}}{\\colortbl ;\\red0\\green0\\blue0;}\\viewkind4\\uc1\\pard\\qc\\cf1\\fs72  }",
-                      "xmlContent" : "﻿<?xml version=\"1.0\"?>\n\n<Overlay version=\"1.0.1\">\n\n<Overlay_Filename>highlighter_100x100.png</Overlay_Filename>\n<Overlay_Name>Highlighter</Overlay_Name>\n<Text_Top>0</Text_Top>\n<Text_Left>0</Text_Left>\n<Text_Bottom>0</Text_Bottom>\n<Text_Right>0</Text_Right>\n<Fill_Color>1</Fill_Color>\n<Border_Color>0</Border_Color>\n</Overlay>"
+                      "textAttributes" : {
+                        "type" : "textAttributeList",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : [{"name":"fgColor","rangeEnd":21,"rangeStart":0,"value":"(0,0,0,255)","valueType":"color"},{"name":"strikethrough","rangeEnd":21,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontSize","rangeEnd":21,"rangeStart":0,"value":64,"valueType":"double"},{"name":"fontItalic","rangeEnd":21,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":21,"rangeStart":0,"value":400,"valueType":"int"},{"name":"fontName","rangeEnd":21,"rangeStart":0,"value":"Montserrat","valueType":"string"},{"name":"underline","rangeEnd":21,"rangeStart":0,"value":0,"valueType":"int"}],
+                            "duration" : 0
+                          }
+                        ]
+                      }
                     },
                     "attributes" : {
                       "autoRotateText" : true
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : 123.366079659905,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -100.380149892478,
-                        "interp" : "eioe"
-                      },
-                      "rotation2" : {
-                        "type" : "double",
-                        "defaultValue" : 0.67231655607806,
-                        "interp" : "eioe"
-                      },
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 2.46852603093775,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 0.40949534822468,
-                        "interp" : "eioe"
-                      }
+                      "translation0" : -102.978032263882,
+                      "translation1" : -33.8788351755308,
+                      "rotation2" : 0.692895713041749
                     },
                     "effects" : [
                         {
+                          "effectName" : "DropShadow",
+                          "category" : "categoryVisualEffects",
+                          "parameters" : {
+                            "angle" : 5.49778714378214,
+                            "blur" : 10.0,
+                            "color-alpha" : 1.0,
+                            "color-blue" : 0.1216,
+                            "color-green" : 0.1216,
+                            "color-red" : 0.1216,
+                            "enabled" : 1,
+                            "offset" : 10.0,
+                            "opacity" : 0.4
+                          }
+                        },
+                        {
                           "_type" : "GenericBehaviorEffect",
                           "effectName" : "fade",
-                          "start" : -13,
+                          "start" : 0,
                           "duration" : 150                        ,
                           "in" : {
                             "attributes" : {
@@ -1040,7 +1196,7 @@
                               "type" : 0,
                               "characterOrder" : 6,
                               "offsetBetweenCharacters" : "3/2",
-                              "suggestedDurationPerCharacter" : 30,
+                              "suggestedDurationPerCharacter" : "1799/100",
                               "overlapProportion" : 0,
                               "movement" : 0,
                               "springDamping" : 5.0,
@@ -1052,7 +1208,7 @@
                           "center" : {
                             "attributes" : {
                               "name" : "none",
-                              "type" : 0,
+                              "type" : 1,
                               "characterOrder" : 6,
                               "offsetBetweenCharacters" : 0,
                               "secondsPerLoop" : 1,
@@ -1064,13 +1220,13 @@
                           },
                           "out" : {
                             "attributes" : {
-                              "name" : "none",
+                              "name" : "fadeOut",
                               "type" : 0,
                               "characterOrder" : 6,
-                              "offsetBetweenCharacters" : 0,
-                              "suggestedDurationPerCharacter" : 0,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : 18,
                               "overlapProportion" : 0,
-                              "movement" : -1,
+                              "movement" : 0,
                               "springDamping" : 5.0,
                               "springStiffness" : 50.0,
                               "bounceBounciness" : 0.45
@@ -1078,26 +1234,26 @@
                           
                           },
                           "metadata" : {
-                            "default-behavior-out-style" : "fadeOut"
+                            "default-behavior-in-duration" : 30.0,
+                            "default-behavior-in-type" : 1.0,
+                            "default-behavior-out-duration" : 30.0,
+                            "default-behavior-out-style" : "fadeOut",
+                            "default-behavior-out-type" : 1.0
                           }
                         }
                     ],
-                    "start" : 240,
+                    "start" : 30,
                     "duration" : 150,
-                    "mediaStart" : -13,
+                    "mediaStart" : 0,
                     "mediaDuration" : 150,
                     "scalar" : 1,
                     "metadata" : {
                       "WinSubProjectDisplayName" : "",
                       "clipSpeedAttribute" : false,
-                      "default-fill-color-blue" : 0.0,
-                      "default-fill-color-green" : 1.0,
-                      "default-fill-color-opacity" : 1.0,
-                      "default-fill-color-red" : 1.0,
-                      "default-opacity" : 1.0,
+                      "default-HAlign" : "center",
+                      "default-VAlign" : "center",
                       "default-rotation2" : 0.0,
-                      "default-scale0" : 1.0,
-                      "default-scale1" : 1.0,
+                      "default-text-attributes" : null,
                       "default-translation0" : 0.0,
                       "default-translation1" : 0.0
                     },
@@ -1110,6 +1266,1231 @@
               {
                 "trackIndex" : 5,
                 "medias" : [
+                  {
+                    "id" : 33,
+                    "_type" : "Callout",
+                    "def" : {
+                      "kind" : "remix",
+                      "shape" : "text",
+                      "style" : "basic",
+                      "height" : {
+                        "type" : "double",
+                        "defaultValue" : 43.0607423091977,
+                        "interp" : "linr"
+                      },
+                      "width" : {
+                        "type" : "double",
+                        "defaultValue" : 134.893574886013,
+                        "interp" : "linr"
+                      },
+                      "word-wrap" : {
+                        "type" : "double",
+                        "defaultValue" : 1.0,
+                        "interp" : "linr"
+                      },
+                      "horizontal-alignment" : "center",
+                      "text" : "Multipart Component 2",
+                      "vertical-alignment" : "center",
+                      "font" : {
+                        "color-blue" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "color-green" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "color-red" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "size" : {
+                          "type" : "double",
+                          "defaultValue" : 64.0,
+                          "interp" : "linr"
+                        },
+                        "tracking" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "name" : "Montserrat",
+                        "weight" : "Regular"
+                      },
+                      "textAttributes" : {
+                        "type" : "textAttributeList",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : [{"name":"fontItalic","rangeEnd":21,"rangeStart":0,"value":0,"valueType":"int"},{"name":"strikethrough","rangeEnd":21,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":21,"rangeStart":0,"value":400,"valueType":"int"},{"name":"fontName","rangeEnd":21,"rangeStart":0,"value":"Montserrat","valueType":"string"},{"name":"fgColor","rangeEnd":21,"rangeStart":0,"value":"(0,0,0,255)","valueType":"color"},{"name":"underline","rangeEnd":21,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontSize","rangeEnd":21,"rangeStart":0,"value":64,"valueType":"double"}],
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "attributes" : {
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : 37.8815763626143,
+                        "interp" : "eioe"
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : -126.895521027573,
+                        "interp" : "eioe"
+                      },
+                      "rotation2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.670206432765822,
+                        "interp" : "eioe"
+                      }
+                    },
+                    "effects" : [
+                        {
+                          "effectName" : "DropShadow",
+                          "category" : "categoryVisualEffects",
+                          "parameters" : {
+                            "angle" : {
+                              "type" : "double",
+                              "defaultValue" : 5.49778714378214,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "blur" : {
+                              "type" : "double",
+                              "defaultValue" : 10.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-alpha" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-blue" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-green" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-red" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "enabled" : 1,
+                            "offset" : {
+                              "type" : "double",
+                              "defaultValue" : 10.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "opacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.4,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "_type" : "GenericBehaviorEffect",
+                          "effectName" : "fade",
+                          "start" : 0,
+                          "duration" : 120                        ,
+                          "in" : {
+                            "attributes" : {
+                              "name" : "fadeIn",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : "1799/100",
+                              "overlapProportion" : 0,
+                              "movement" : 0,
+                              "springDamping" : 5.0,
+                              "springStiffness" : 50.0,
+                              "bounceBounciness" : 0.45
+                            }
+                          
+                          },
+                          "center" : {
+                            "attributes" : {
+                              "name" : "none",
+                              "type" : 1,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : 0,
+                              "secondsPerLoop" : 1,
+                              "numberOfLoops" : -1,
+                              "delayBetweenLoops" : 0,
+                              "offsetBetweenCharacters" : 0
+                            }
+                          
+                          },
+                          "out" : {
+                            "attributes" : {
+                              "name" : "fadeOut",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : 18,
+                              "overlapProportion" : 0,
+                              "movement" : 0,
+                              "springDamping" : 5.0,
+                              "springStiffness" : 50.0,
+                              "bounceBounciness" : 0.45
+                            }
+                          
+                          },
+                          "metadata" : {
+                            "default-behavior-in-duration" : 30.0,
+                            "default-behavior-in-type" : 1.0,
+                            "default-behavior-out-duration" : 30.0,
+                            "default-behavior-out-style" : "fadeOut",
+                            "default-behavior-out-type" : 1.0
+                          }
+                        }
+                    ],
+                    "start" : 60,
+                    "duration" : 120,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 120,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-HAlign" : "center",
+                      "default-VAlign" : "center",
+                      "default-rotation2" : 0.0,
+                      "default-text-attributes" : null,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 6,
+                "medias" : [
+                  {
+                    "id" : 34,
+                    "_type" : "Callout",
+                    "def" : {
+                      "kind" : "remix",
+                      "shape" : "text",
+                      "style" : "basic",
+                      "height" : {
+                        "type" : "double",
+                        "defaultValue" : 43.0607423091977,
+                        "interp" : "linr"
+                      },
+                      "width" : {
+                        "type" : "double",
+                        "defaultValue" : 134.893574886013,
+                        "interp" : "linr"
+                      },
+                      "word-wrap" : {
+                        "type" : "double",
+                        "defaultValue" : 1.0,
+                        "interp" : "linr"
+                      },
+                      "horizontal-alignment" : "center",
+                      "text" : "Multipart Component 3",
+                      "vertical-alignment" : "center",
+                      "font" : {
+                        "color-blue" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "color-green" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "color-red" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "size" : {
+                          "type" : "double",
+                          "defaultValue" : 64.0,
+                          "interp" : "linr"
+                        },
+                        "tracking" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "name" : "Montserrat",
+                        "weight" : "Regular"
+                      },
+                      "textAttributes" : {
+                        "type" : "textAttributeList",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : [{"name":"fontName","rangeEnd":21,"rangeStart":0,"value":"Montserrat","valueType":"string"},{"name":"fontItalic","rangeEnd":21,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontSize","rangeEnd":21,"rangeStart":0,"value":64,"valueType":"double"},{"name":"fontWeight","rangeEnd":21,"rangeStart":0,"value":400,"valueType":"int"},{"name":"underline","rangeEnd":21,"rangeStart":0,"value":0,"valueType":"int"},{"name":"strikethrough","rangeEnd":21,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fgColor","rangeEnd":21,"rangeStart":0,"value":"(0,0,0,255)","valueType":"color"}],
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "attributes" : {
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : -225.383637814106,
+                        "interp" : "eioe"
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : 71.6428809644315,
+                        "interp" : "eioe"
+                      },
+                      "rotation2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.670206432765822,
+                        "interp" : "eioe"
+                      }
+                    },
+                    "effects" : [
+                        {
+                          "effectName" : "DropShadow",
+                          "category" : "categoryVisualEffects",
+                          "parameters" : {
+                            "angle" : {
+                              "type" : "double",
+                              "defaultValue" : 5.49778714378214,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "blur" : {
+                              "type" : "double",
+                              "defaultValue" : 10.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-alpha" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-blue" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-green" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-red" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "enabled" : 1,
+                            "offset" : {
+                              "type" : "double",
+                              "defaultValue" : 10.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "opacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.4,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "_type" : "GenericBehaviorEffect",
+                          "effectName" : "fade",
+                          "start" : 0,
+                          "duration" : 90                        ,
+                          "in" : {
+                            "attributes" : {
+                              "name" : "fadeIn",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : "1799/100",
+                              "overlapProportion" : 0,
+                              "movement" : 0,
+                              "springDamping" : 5.0,
+                              "springStiffness" : 50.0,
+                              "bounceBounciness" : 0.45
+                            }
+                          
+                          },
+                          "center" : {
+                            "attributes" : {
+                              "name" : "none",
+                              "type" : 1,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : 0,
+                              "secondsPerLoop" : 1,
+                              "numberOfLoops" : -1,
+                              "delayBetweenLoops" : 0,
+                              "offsetBetweenCharacters" : 0
+                            }
+                          
+                          },
+                          "out" : {
+                            "attributes" : {
+                              "name" : "fadeOut",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : 18,
+                              "overlapProportion" : 0,
+                              "movement" : 0,
+                              "springDamping" : 5.0,
+                              "springStiffness" : 50.0,
+                              "bounceBounciness" : 0.45
+                            }
+                          
+                          },
+                          "metadata" : {
+                            "default-behavior-in-duration" : 30.0,
+                            "default-behavior-in-type" : 1.0,
+                            "default-behavior-out-duration" : 30.0,
+                            "default-behavior-out-style" : "fadeOut",
+                            "default-behavior-out-type" : 1.0
+                          }
+                        }
+                    ],
+                    "start" : 210,
+                    "duration" : 90,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 90,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-HAlign" : "center",
+                      "default-VAlign" : "center",
+                      "default-rotation2" : 0.0,
+                      "default-text-attributes" : null,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 7,
+                "medias" : [
+                  {
+                    "id" : 35,
+                    "_type" : "Callout",
+                    "def" : {
+                      "kind" : "remix",
+                      "shape" : "text",
+                      "style" : "basic",
+                      "height" : {
+                        "type" : "double",
+                        "defaultValue" : 87.8947145406284,
+                        "interp" : "linr"
+                      },
+                      "width" : {
+                        "type" : "double",
+                        "defaultValue" : 134.893574886013,
+                        "interp" : "linr"
+                      },
+                      "word-wrap" : {
+                        "type" : "double",
+                        "defaultValue" : 1.0,
+                        "interp" : "linr"
+                      },
+                      "horizontal-alignment" : "center",
+                      "text" : "Transported to Client Area\rand Connected\rTogether",
+                      "vertical-alignment" : "center",
+                      "font" : {
+                        "color-blue" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "color-green" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "color-red" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "size" : {
+                          "type" : "double",
+                          "defaultValue" : 64.0,
+                          "interp" : "linr"
+                        },
+                        "tracking" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "name" : "Montserrat",
+                        "weight" : "Regular"
+                      },
+                      "textAttributes" : {
+                        "type" : "textAttributeList",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : [{"name":"underline","rangeEnd":49,"rangeStart":0,"value":0,"valueType":"int"},{"name":"strikethrough","rangeEnd":49,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontItalic","rangeEnd":49,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":49,"rangeStart":0,"value":400,"valueType":"int"},{"name":"fontName","rangeEnd":49,"rangeStart":0,"value":"Montserrat","valueType":"string"},{"name":"fgColor","rangeEnd":49,"rangeStart":0,"value":"(0,0,0,255)","valueType":"color"},{"name":"fontSize","rangeEnd":49,"rangeStart":0,"value":64,"valueType":"double"}],
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "attributes" : {
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : 67.128851659387,
+                        "interp" : "eioe"
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : -47.4173651145268,
+                        "interp" : "eioe"
+                      },
+                      "rotation2" : {
+                        "type" : "double",
+                        "defaultValue" : -0.692568826624687,
+                        "interp" : "eioe"
+                      }
+                    },
+                    "effects" : [
+                        {
+                          "effectName" : "DropShadow",
+                          "category" : "categoryVisualEffects",
+                          "parameters" : {
+                            "angle" : {
+                              "type" : "double",
+                              "defaultValue" : 5.49778714378214,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "blur" : {
+                              "type" : "double",
+                              "defaultValue" : 10.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-alpha" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-blue" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-green" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-red" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "enabled" : 1,
+                            "offset" : {
+                              "type" : "double",
+                              "defaultValue" : 10.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "opacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.4,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "_type" : "GenericBehaviorEffect",
+                          "effectName" : "fade",
+                          "start" : 0,
+                          "duration" : 150                        ,
+                          "in" : {
+                            "attributes" : {
+                              "name" : "fadeIn",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : "1799/100",
+                              "overlapProportion" : 0,
+                              "movement" : 0,
+                              "springDamping" : 5.0,
+                              "springStiffness" : 50.0,
+                              "bounceBounciness" : 0.45
+                            }
+                          
+                          },
+                          "center" : {
+                            "attributes" : {
+                              "name" : "none",
+                              "type" : 1,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : 0,
+                              "secondsPerLoop" : 1,
+                              "numberOfLoops" : -1,
+                              "delayBetweenLoops" : 0,
+                              "offsetBetweenCharacters" : 0
+                            }
+                          
+                          },
+                          "out" : {
+                            "attributes" : {
+                              "name" : "fadeOut",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : 18,
+                              "overlapProportion" : 0,
+                              "movement" : 0,
+                              "springDamping" : 5.0,
+                              "springStiffness" : 50.0,
+                              "bounceBounciness" : 0.45
+                            }
+                          
+                          },
+                          "metadata" : {
+                            "default-behavior-in-duration" : 30.0,
+                            "default-behavior-in-type" : 1.0,
+                            "default-behavior-out-duration" : 30.0,
+                            "default-behavior-out-style" : "fadeOut",
+                            "default-behavior-out-type" : 1.0
+                          }
+                        }
+                    ],
+                    "start" : 150,
+                    "duration" : 150,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 150,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-HAlign" : "center",
+                      "default-VAlign" : "center",
+                      "default-rotation2" : 0.0,
+                      "default-text-attributes" : null,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 8,
+                "medias" : [
+                  {
+                    "id" : 36,
+                    "_type" : "Callout",
+                    "def" : {
+                      "kind" : "remix",
+                      "shape" : "text",
+                      "style" : "basic",
+                      "height" : {
+                        "type" : "double",
+                        "defaultValue" : 87.8947145406284,
+                        "interp" : "linr"
+                      },
+                      "width" : {
+                        "type" : "double",
+                        "defaultValue" : 134.893574886013,
+                        "interp" : "linr"
+                      },
+                      "word-wrap" : {
+                        "type" : "double",
+                        "defaultValue" : 1.0,
+                        "interp" : "linr"
+                      },
+                      "horizontal-alignment" : "center",
+                      "text" : "Transported to Client Area\rand Connected\rTogether",
+                      "vertical-alignment" : "center",
+                      "font" : {
+                        "color-blue" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "color-green" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "color-red" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "size" : {
+                          "type" : "double",
+                          "defaultValue" : 64.0,
+                          "interp" : "linr"
+                        },
+                        "tracking" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "name" : "Montserrat",
+                        "weight" : "Regular"
+                      },
+                      "textAttributes" : {
+                        "type" : "textAttributeList",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : [{"name":"underline","rangeEnd":49,"rangeStart":0,"value":0,"valueType":"int"},{"name":"strikethrough","rangeEnd":49,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontItalic","rangeEnd":49,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontWeight","rangeEnd":49,"rangeStart":0,"value":400,"valueType":"int"},{"name":"fontName","rangeEnd":49,"rangeStart":0,"value":"Montserrat","valueType":"string"},{"name":"fgColor","rangeEnd":49,"rangeStart":0,"value":"(0,0,0,255)","valueType":"color"},{"name":"fontSize","rangeEnd":49,"rangeStart":0,"value":64,"valueType":"double"}],
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "attributes" : {
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : -69.2182228853986,
+                        "interp" : "eioe"
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : 52.785248647078,
+                        "interp" : "eioe"
+                      },
+                      "rotation2" : {
+                        "type" : "double",
+                        "defaultValue" : -0.645869529408179,
+                        "interp" : "eioe"
+                      }
+                    },
+                    "effects" : [
+                        {
+                          "effectName" : "DropShadow",
+                          "category" : "categoryVisualEffects",
+                          "parameters" : {
+                            "angle" : {
+                              "type" : "double",
+                              "defaultValue" : 5.49778714378214,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "blur" : {
+                              "type" : "double",
+                              "defaultValue" : 10.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-alpha" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-blue" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-green" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-red" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "enabled" : 1,
+                            "offset" : {
+                              "type" : "double",
+                              "defaultValue" : 10.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "opacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.4,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "_type" : "GenericBehaviorEffect",
+                          "effectName" : "fade",
+                          "start" : 0,
+                          "duration" : 120                        ,
+                          "in" : {
+                            "attributes" : {
+                              "name" : "fadeIn",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : "1799/100",
+                              "overlapProportion" : 0,
+                              "movement" : 0,
+                              "springDamping" : 5.0,
+                              "springStiffness" : 50.0,
+                              "bounceBounciness" : 0.45
+                            }
+                          
+                          },
+                          "center" : {
+                            "attributes" : {
+                              "name" : "none",
+                              "type" : 1,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : 0,
+                              "secondsPerLoop" : 1,
+                              "numberOfLoops" : -1,
+                              "delayBetweenLoops" : 0,
+                              "offsetBetweenCharacters" : 0
+                            }
+                          
+                          },
+                          "out" : {
+                            "attributes" : {
+                              "name" : "fadeOut",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : 18,
+                              "overlapProportion" : 0,
+                              "movement" : 0,
+                              "springDamping" : 5.0,
+                              "springStiffness" : 50.0,
+                              "bounceBounciness" : 0.45
+                            }
+                          
+                          },
+                          "metadata" : {
+                            "default-behavior-in-duration" : 30.0,
+                            "default-behavior-in-type" : 1.0,
+                            "default-behavior-out-duration" : 30.0,
+                            "default-behavior-out-style" : "fadeOut",
+                            "default-behavior-out-type" : 1.0
+                          }
+                        }
+                    ],
+                    "start" : 270,
+                    "duration" : 120,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 120,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-HAlign" : "center",
+                      "default-VAlign" : "center",
+                      "default-rotation2" : 0.0,
+                      "default-text-attributes" : null,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 9,
+                "medias" : [
+                  {
+                    "id" : 37,
+                    "_type" : "Callout",
+                    "def" : {
+                      "kind" : "remix",
+                      "shape" : "text",
+                      "style" : "basic",
+                      "height" : {
+                        "type" : "double",
+                        "defaultValue" : 79.894714540639,
+                        "interp" : "linr"
+                      },
+                      "width" : {
+                        "type" : "double",
+                        "defaultValue" : 183.893574886116,
+                        "interp" : "linr"
+                      },
+                      "word-wrap" : {
+                        "type" : "double",
+                        "defaultValue" : 1.0,
+                        "interp" : "linr"
+                      },
+                      "horizontal-alignment" : "center",
+                      "text" : "Completed Assembly",
+                      "vertical-alignment" : "center",
+                      "font" : {
+                        "color-blue" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "color-green" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "color-red" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "size" : {
+                          "type" : "double",
+                          "defaultValue" : 64.0,
+                          "interp" : "linr"
+                        },
+                        "tracking" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "name" : "Montserrat",
+                        "weight" : "Regular"
+                      },
+                      "textAttributes" : {
+                        "type" : "textAttributeList",
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : [{"name":"fontWeight","rangeEnd":18,"rangeStart":0,"value":400,"valueType":"int"},{"name":"fgColor","rangeEnd":18,"rangeStart":0,"value":"(0,0,0,255)","valueType":"color"},{"name":"fontName","rangeEnd":18,"rangeStart":0,"value":"Montserrat","valueType":"string"},{"name":"strikethrough","rangeEnd":18,"rangeStart":0,"value":0,"valueType":"int"},{"name":"fontSize","rangeEnd":18,"rangeStart":0,"value":64,"valueType":"double"},{"name":"fontItalic","rangeEnd":18,"rangeStart":0,"value":0,"valueType":"int"},{"name":"underline","rangeEnd":18,"rangeStart":0,"value":0,"valueType":"int"}],
+                            "duration" : 0
+                          }
+                        ]
+                      }
+                    },
+                    "attributes" : {
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : -189.247466732518,
+                        "interp" : "eioe"
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : -179.872168140439,
+                        "interp" : "eioe"
+                      }
+                    },
+                    "effects" : [
+                        {
+                          "effectName" : "DropShadow",
+                          "category" : "categoryVisualEffects",
+                          "parameters" : {
+                            "angle" : {
+                              "type" : "double",
+                              "defaultValue" : 5.49778714378214,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "blur" : {
+                              "type" : "double",
+                              "defaultValue" : 10.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-alpha" : {
+                              "type" : "double",
+                              "defaultValue" : 1.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-blue" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-green" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "color-red" : {
+                              "type" : "double",
+                              "defaultValue" : 0.1216,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "enabled" : 1,
+                            "offset" : {
+                              "type" : "double",
+                              "defaultValue" : 10.0,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            },
+                            "opacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.4,
+                              "interp" : "linr",
+                              "uiHints" : {
+                                "userInterfaceType" : 0,
+                                "unitType" : 0
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "_type" : "GenericBehaviorEffect",
+                          "effectName" : "fade",
+                          "start" : 0,
+                          "duration" : 60                        ,
+                          "in" : {
+                            "attributes" : {
+                              "name" : "fadeIn",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : "3/2",
+                              "suggestedDurationPerCharacter" : "1799/100",
+                              "overlapProportion" : 0,
+                              "movement" : 0,
+                              "springDamping" : 5.0,
+                              "springStiffness" : 50.0,
+                              "bounceBounciness" : 0.45
+                            }
+                          
+                          },
+                          "center" : {
+                            "attributes" : {
+                              "name" : "none",
+                              "type" : 1,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : 0,
+                              "secondsPerLoop" : 1,
+                              "numberOfLoops" : -1,
+                              "delayBetweenLoops" : 0,
+                              "offsetBetweenCharacters" : 0
+                            }
+                          
+                          },
+                          "out" : {
+                            "attributes" : {
+                              "name" : "none",
+                              "type" : 0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : 0,
+                              "suggestedDurationPerCharacter" : 0,
+                              "overlapProportion" : 0,
+                              "movement" : -1,
+                              "springDamping" : 5.0,
+                              "springStiffness" : 50.0,
+                              "bounceBounciness" : 0.45
+                            }
+                          
+                          },
+                          "metadata" : {
+                            "default-behavior-in-duration" : 30.0,
+                            "default-behavior-in-type" : 1.0,
+                            "default-behavior-out-duration" : 30.0,
+                            "default-behavior-out-style" : "fadeOut",
+                            "default-behavior-out-type" : 1.0
+                          }
+                        }
+                    ],
+                    "start" : 360,
+                    "duration" : 60,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 60,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "WinSubProjectDisplayName" : "",
+                      "clipSpeedAttribute" : false,
+                      "default-HAlign" : "center",
+                      "default-VAlign" : "center",
+                      "default-rotation2" : 0.0,
+                      "default-text-attributes" : null,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 10,
+                "medias" : [
                 ]
               }
             ]
@@ -1118,6 +2499,51 @@
       ]
     },
     "trackAttributes" : [
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
       {
         "ident" : "",
         "audioMuted" : false,
@@ -1190,8 +2616,9 @@
   },
   "metadata" : {
     "AutoSaveFile" : "",
-    "CanvasZoom" : 100,
+    "CanvasZoom" : 85,
     "Date" : "2023-01-19 10:30:16 PM",
+    "Fit" : 0,
     "IsAutoSave" : "0",
     "Language" : "ENU",
     "ProfileName" : "",
