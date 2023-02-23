@@ -1,0 +1,7 @@
+# Python stuff to ignore
+__pycache__/
+*.pyc
+
+# Generated Results
+*.mp4
+*.gif
