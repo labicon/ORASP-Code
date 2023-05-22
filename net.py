@@ -36,6 +36,7 @@ class ReplayMemory(object):
 class DQN(nn.Module):
     def __init__(self, n_observations, n_actions, n_hidden=128):
         super(DQN, self).__init__()
+        n_hidden = max(n_hidden, n_observations)
         self.fc1 = nn.Linear(n_observations, n_hidden)
         self.fc2 = nn.Linear(n_hidden, n_hidden)
         self.fc3 = nn.Linear(n_hidden, n_actions)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.7)  15 MAY 2023 23:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.7)  16 MAY 2023 22:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -369,34 +369,41 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 27.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 73.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 74.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count310
 \l__pdf_internal_box=\box59
-) (./main.aux)
+) (./main.aux
+
+LaTeX Warning: Label `fig: treeGen' multiply defined.
+
+
+LaTeX Warning: Label `fig: treeGen2' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
  (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count311
@@ -459,7 +466,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 73.
+Package hyperref Info: Link coloring ON on input line 74.
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -499,116 +506,207 @@ Package hyperref Info: Link coloring ON on input line 73.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 80.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 81.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 87.
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 91.
-(c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 92.
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [1
 
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<figs/Fully Assembled.jpg, id=73, 346.29375pt x 262.9825pt>
-File: figs/Fully Assembled.jpg Graphic file (type jpg)
-<use figs/Fully Assembled.jpg>
-Package pdftex.def Info: figs/Fully Assembled.jpg  used on input line 171.
-(pdftex.def)             Requested size: 158.99156pt x 120.74467pt.
- [3 <./figs/Fully Assembled.jpg>]
-<figs/Subassembly Tree Generation.jpg, id=89, 356.33125pt x 363.3575pt>
-File: figs/Subassembly Tree Generation.jpg Graphic file (type jpg)
-<use figs/Subassembly Tree Generation.jpg>
-Package pdftex.def Info: figs/Subassembly Tree Generation.jpg  used on input line 212.
-(pdftex.def)             Requested size: 119.2467pt x 121.59383pt.
-<figs/Consolidated Subassembly Tree Generation.jpg, id=91, 356.33125pt x 363.3575pt>
-File: figs/Consolidated Subassembly Tree Generation.jpg Graphic file (type jpg)
-<use figs/Consolidated Subassembly Tree Generation.jpg>
-Package pdftex.def Info: figs/Consolidated Subassembly Tree Generation.jpg  used on input line 221.
-(pdftex.def)             Requested size: 119.2467pt x 121.59383pt.
+Package epstopdf Info: Source file: <figs/FullyAssembled.eps>
+(epstopdf)                    date: 2023-05-16 10:24:39
+(epstopdf)                    size: 13160 bytes
+(epstopdf)             Output file: <figs/FullyAssembled-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-16 22:46:19
+(epstopdf)                    size: 8803 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/FullyAssembled-eps-converted-to.pdf figs/FullyAssembled.eps>
+(epstopdf)             \includegraphics on input line 176.
+Package epstopdf Info: Output file is already uptodate.
+<figs/FullyAssembled-eps-converted-to.pdf, id=64, 463.7325pt x 347.2975pt>
+File: figs/FullyAssembled-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/FullyAssembled-eps-converted-to.pdf>
+Package pdftex.def Info: figs/FullyAssembled-eps-converted-to.pdf  used on input line 176.
+(pdftex.def)             Requested size: 158.99156pt x 119.07056pt.
+ [3 <./figs/FullyAssembled-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figs/SubassemblyTreeGeneration.eps>
+(epstopdf)                    date: 2023-05-16 10:32:56
+(epstopdf)                    size: 14496 bytes
+(epstopdf)             Output file: <figs/SubassemblyTreeGeneration-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-16 22:49:21
+(epstopdf)                    size: 4581 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/SubassemblyTreeGeneration-eps-converted-to.pdf figs/SubassemblyTreeGeneration.eps>
+(epstopdf)             \includegraphics on input line 213.
+Package epstopdf Info: Output file is already uptodate.
+<figs/SubassemblyTreeGeneration-eps-converted-to.pdf, id=101, 268.00125pt x 274.02374pt>
+File: figs/SubassemblyTreeGeneration-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/SubassemblyTreeGeneration-eps-converted-to.pdf>
+Package pdftex.def Info: figs/SubassemblyTreeGeneration-eps-converted-to.pdf  used on input line 213.
+(pdftex.def)             Requested size: 119.2467pt x 121.92554pt.
+Package epstopdf Info: Source file: <figs/SubassemblyTreeGeneration.eps>
+(epstopdf)                    date: 2023-05-16 10:32:56
+(epstopdf)                    size: 14496 bytes
+(epstopdf)             Output file: <figs/SubassemblyTreeGeneration-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-16 22:49:21
+(epstopdf)                    size: 4581 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/SubassemblyTreeGeneration-eps-converted-to.pdf figs/SubassemblyTreeGeneration.eps>
+(epstopdf)             \includegraphics on input line 222.
+Package epstopdf Info: Output file is already uptodate.
+File: figs/SubassemblyTreeGeneration-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/SubassemblyTreeGeneration-eps-converted-to.pdf>
+Package pdftex.def Info: figs/SubassemblyTreeGeneration-eps-converted-to.pdf  used on input line 222.
+(pdftex.def)             Requested size: 268.00058pt x 274.02307pt.
+
+Overfull \hbox (89.13356pt too wide) in paragraph at lines 222--223
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <figs/ConsolidatedSubassemblyTreeGeneration.eps>
+(epstopdf)                    date: 2023-05-16 10:33:09
+(epstopdf)                    size: 10854 bytes
+(epstopdf)             Output file: <figs/ConsolidatedSubassemblyTreeGeneration-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-16 22:49:23
+(epstopdf)                    size: 4069 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/ConsolidatedSubassemblyTreeGeneration-eps-converted-to.pdf figs/ConsolidatedSubassemblyTreeGeneration.eps>
+(epstopdf)             \includegraphics on input line 229.
+Package epstopdf Info: Output file is already uptodate.
+<figs/ConsolidatedSubassemblyTreeGeneration-eps-converted-to.pdf, id=102, 196.735pt x 273.02pt>
+File: figs/ConsolidatedSubassemblyTreeGeneration-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/ConsolidatedSubassemblyTreeGeneration-eps-converted-to.pdf>
+Package pdftex.def Info: figs/ConsolidatedSubassemblyTreeGeneration-eps-converted-to.pdf  used on input line 229.
+(pdftex.def)             Requested size: 196.7345pt x 273.01933pt.
+
+Overfull \hbox (17.86748pt too wide) in paragraph at lines 229--230
+ [][] 
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./figs/Subassembly Tree Generation.jpg>]
-<figs/Constraint.jpg, id=103, 650.43pt x 163.61125pt>
+Package epstopdf Info: Source file: <figs/ConsolidatedSubassemblyTreeGeneration.eps>
+(epstopdf)                    date: 2023-05-16 10:33:09
+(epstopdf)                    size: 10854 bytes
+(epstopdf)             Output file: <figs/ConsolidatedSubassemblyTreeGeneration-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-16 22:49:23
+(epstopdf)                    size: 4069 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/ConsolidatedSubassemblyTreeGeneration-eps-converted-to.pdf figs/ConsolidatedSubassemblyTreeGeneration.eps>
+(epstopdf)             \includegraphics on input line 241.
+Package epstopdf Info: Output file is already uptodate.
+File: figs/ConsolidatedSubassemblyTreeGeneration-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/ConsolidatedSubassemblyTreeGeneration-eps-converted-to.pdf>
+Package pdftex.def Info: figs/ConsolidatedSubassemblyTreeGeneration-eps-converted-to.pdf  used on input line 241.
+(pdftex.def)             Requested size: 119.2467pt x 165.4838pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./figs/SubassemblyTreeGeneration-eps-converted-to.pdf>] [5 <./figs/ConsolidatedSubassemblyTreeGeneration-eps-converted-to.pdf>]
+<figs/Constraint.jpg, id=125, 650.43pt x 163.61125pt>
 File: figs/Constraint.jpg Graphic file (type jpg)
 <use figs/Constraint.jpg>
-Package pdftex.def Info: figs/Constraint.jpg  used on input line 236.
+Package pdftex.def Info: figs/Constraint.jpg  used on input line 256.
 (pdftex.def)             Requested size: 238.49341pt x 59.99097pt.
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 253.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <./figs/Consolidated Subassembly Tree Generation.jpg> <./figs/Constraint.jpg>] [6]
-<figs/DQN Architecture.jpg, id=123, 640.64343pt x 243.15843pt>
-File: figs/DQN Architecture.jpg Graphic file (type jpg)
-<use figs/DQN Architecture.jpg>
-Package pdftex.def Info: figs/DQN Architecture.jpg  used on input line 302.
-(pdftex.def)             Requested size: 198.7425pt x 75.43027pt.
-<figs/Result1.jpg, id=125, 372.39125pt x 282.05376pt>
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 273.
+ [6 <./figs/Constraint.jpg>]
+Package epstopdf Info: Source file: <figs/DQNArchitecture.eps>
+(epstopdf)                    date: 2023-05-16 10:53:23
+(epstopdf)                    size: 84020 bytes
+(epstopdf)             Output file: <figs/DQNArchitecture-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-16 22:46:21
+(epstopdf)                    size: 30969 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/DQNArchitecture-eps-converted-to.pdf figs/DQNArchitecture.eps>
+(epstopdf)             \includegraphics on input line 322.
+Package epstopdf Info: Output file is already uptodate.
+<figs/DQNArchitecture-eps-converted-to.pdf, id=139, 495.8525pt x 183.68625pt>
+File: figs/DQNArchitecture-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/DQNArchitecture-eps-converted-to.pdf>
+Package pdftex.def Info: figs/DQNArchitecture-eps-converted-to.pdf  used on input line 322.
+(pdftex.def)             Requested size: 198.7425pt x 73.62173pt.
+ [7 <./figs/DQNArchitecture-eps-converted-to.pdf>]
+<figs/Result1.jpg, id=151, 372.39125pt x 282.05376pt>
 File: figs/Result1.jpg Graphic file (type jpg)
 <use figs/Result1.jpg>
-Package pdftex.def Info: figs/Result1.jpg  used on input line 318.
+Package pdftex.def Info: figs/Result1.jpg  used on input line 345.
 (pdftex.def)             Requested size: 178.86702pt x 135.47894pt.
-<figs/Result2.jpg, id=126, 371.3875pt x 285.065pt>
+<figs/Result2.jpg, id=152, 371.3875pt x 285.065pt>
 File: figs/Result2.jpg Graphic file (type jpg)
 <use figs/Result2.jpg>
-Package pdftex.def Info: figs/Result2.jpg  used on input line 323.
+Package pdftex.def Info: figs/Result2.jpg  used on input line 350.
 (pdftex.def)             Requested size: 178.86702pt x 137.29506pt.
-<figs/2x3.png, id=130, 476.982pt x 360.6273pt>
-File: figs/2x3.png Graphic file (type png)
-<use figs/2x3.png>
-Package pdftex.def Info: figs/2x3.png  used on input line 336.
-(pdftex.def)             Requested size: 119.2467pt x 90.1566pt.
-<figs/lattice.png, id=132, 476.982pt x 360.6273pt>
-File: figs/lattice.png Graphic file (type png)
-<use figs/lattice.png>
-Package pdftex.def Info: figs/lattice.png  used on input line 342.
-(pdftex.def)             Requested size: 119.2467pt x 90.1566pt.
-<figs/hubble.png, id=133, 476.982pt x 360.6273pt>
-File: figs/hubble.png Graphic file (type png)
-<use figs/hubble.png>
-Package pdftex.def Info: figs/hubble.png  used on input line 348.
-(pdftex.def)             Requested size: 119.2467pt x 90.1566pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7 <./figs/DQN Architecture.jpg> <./figs/Result1.jpg> <./figs/Result2.jpg>] [8 <./figs/2x3.png> <./figs/lattice.png> <./figs/hubble.png>] (./main.bbl) [9
+Package epstopdf Info: Source file: <figs/2x3.eps>
+(epstopdf)                    date: 2023-05-16 10:24:26
+(epstopdf)                    size: 6978 bytes
+(epstopdf)             Output file: <figs/2x3-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-16 22:46:22
+(epstopdf)                    size: 6254 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/2x3-eps-converted-to.pdf figs/2x3.eps>
+(epstopdf)             \includegraphics on input line 363.
+Package epstopdf Info: Output file is already uptodate.
+<figs/2x3-eps-converted-to.pdf, id=156, 463.7325pt x 347.2975pt>
+File: figs/2x3-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/2x3-eps-converted-to.pdf>
+Package pdftex.def Info: figs/2x3-eps-converted-to.pdf  used on input line 363.
+(pdftex.def)             Requested size: 119.2467pt x 89.30424pt.
+Package epstopdf Info: Source file: <figs/Lattice.eps>
+(epstopdf)                    date: 2023-05-16 10:24:17
+(epstopdf)                    size: 9839 bytes
+(epstopdf)             Output file: <figs/Lattice-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-16 22:46:24
+(epstopdf)                    size: 8070 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/Lattice-eps-converted-to.pdf figs/Lattice.eps>
+(epstopdf)             \includegraphics on input line 369.
+Package epstopdf Info: Output file is already uptodate.
+<figs/Lattice-eps-converted-to.pdf, id=157, 463.7325pt x 347.2975pt>
+File: figs/Lattice-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/Lattice-eps-converted-to.pdf>
+Package pdftex.def Info: figs/Lattice-eps-converted-to.pdf  used on input line 369.
+(pdftex.def)             Requested size: 119.2467pt x 89.30424pt.
+Package epstopdf Info: Source file: <figs/Hubble.eps>
+(epstopdf)                    date: 2023-05-16 10:24:07
+(epstopdf)                    size: 13058 bytes
+(epstopdf)             Output file: <figs/Hubble-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-05-16 22:46:26
+(epstopdf)                    size: 10366 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/Hubble-eps-converted-to.pdf figs/Hubble.eps>
+(epstopdf)             \includegraphics on input line 375.
+Package epstopdf Info: Output file is already uptodate.
+<figs/Hubble-eps-converted-to.pdf, id=158, 463.7325pt x 347.2975pt>
+File: figs/Hubble-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/Hubble-eps-converted-to.pdf>
+Package pdftex.def Info: figs/Hubble-eps-converted-to.pdf  used on input line 375.
+(pdftex.def)             Requested size: 119.2467pt x 89.30424pt.
+ [8 <./figs/Result1.jpg> <./figs/Result2.jpg> <./figs/2x3-eps-converted-to.pdf> <./figs/Lattice-eps-converted-to.pdf> <./figs/Hubble-eps-converted-to.pdf>] [9] (./main.bbl) [10
 
 ] (./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DAA0D55512DDD3252C1AACA7763226BD;1542.
+(rerunfilecheck)             Checksum: DBE406DE8EA14D5D5D357652B42674C9;1082.
  ) 
 Here is how much of TeX's memory you used:
- 13510 strings out of 476064
- 215290 string characters out of 5794900
- 1869340 words of memory out of 5000000
- 33666 multiletter control sequences out of 15000+600000
- 529528 words of font info for 65 fonts, out of 8000000 for 9000
+ 13534 strings out of 476064
+ 216127 string characters out of 5794900
+ 1871340 words of memory out of 5000000
+ 33680 multiletter control sequences out of 15000+600000
+ 534314 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,16n,90p,1453b,518s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (9 pages, 363062 bytes).
+ 90i,16n,90p,1453b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (10 pages, 296934 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 196 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -27,7 +27,8 @@
 }
 
 
-\title{DAPR - Deep Assembly Planning via Reinforcement Learning}
+\title{Title Coming Soon}
+% DAP-RL: Deep Assembly Planning via Reinforcement Learning
 
 % The \author macro works with any number of authors. There are two
 % commands used to separate the names and addresses of multiple
@@ -84,7 +85,7 @@
 
 %===============================================================================
 
-\section{Scratchpad {\color{red} (Going to move correct sections later)}}
+\section{Scratchpad}
 
 \subsection{Outline}
 \begin{itemize}
@@ -94,11 +95,7 @@
      \item Define Problem
      \item Discuss Challenges
  \end{itemize}
- \item Background
- \begin{itemize}
-    \item Related works
-    \item MDP intro
- \end{itemize}
+ \item Preliminaries and Motivation
  \item Our Method (Find a better name!)
  \begin{itemize}
      \item Formulation
@@ -111,12 +108,23 @@
  \item Conclusion
 \end{itemize}
 
-Additional Ideas: 
+{\color{red}Still To do}: 
 \begin{itemize}
- \item $P(s'|s,a)$ can be used to encode the chance of failure and the cost of entering the failure state can be a parameter that the user can tune to their accepted level of risk! (Mention in conclusion)
- \item Running example can be the 4-piece assembly seen in figures 1 and 2!
- \item specify \emph{Reinforcement Learning (RL)}
- \item edge removal is isomorphic to ordering
+ \item Probability Transition can be used to encode the chance of failure and the cost of entering the failure state can be a parameter that the user can tune to their accepted level of risk! (Mention in conclusion)
+ \item Add notes about Running example as seen in figures 1, 2 and 3
+ \item \sout{mention that edge removal is isomorphic to ordering}
+ \item Finish DQN section
+ \item Add result plots and flush out
+ \item Add future directions to conclusion
+ \begin{itemize}
+     \item Structure partitioning
+     \item Full stack assembly solution (agent assignment and path planning)
+     \item []
+ \end{itemize}
+ \item Mention number of subassemblies constraint in constraints section
+ \item stress power of dynamics decoupling
+ \item fix constraint figure
+ \item fix example figures in experimental results
 \end{itemize}
 
 
@@ -127,7 +135,7 @@ Additional Ideas:
 
 With the rise of automated manufacturing, there has been much interest in also developing a method for determining the order in which parts should be assembled to create a product. This ``Assembly sequencing" task has wide-ranging applicability from planning the order of work performed on a specific home, to optimizing a generic manufacturing process by determining the most efficient order in which parts should be assembled. These assembly sequencing algorithms can even work to avoid errors that can cause significant costs, such as delays, rework, and even scrap, ultimately improving the quality and profitability of the final product.
 
-Furthermore, Robots are becoming increasingly commonplace in manufacturing and production scenarios. As such, there is immense interest in providing assembly planning algorithms for these robotic workers, and current commercial solutions are inssufficient outside of very structured environments. {\color{red} Add Citation}  
+Furthermore, Robots are becoming increasingly commonplace in manufacturing and production scenarios. As such, there is immense interest in providing assembly planning algorithms for these robotic workers, and current commercial solutions are insufficient outside of very structured environments. {\color{red} add citation}  
 
 Current solutions primarily help to improve manufacturing efficiency by reducing the time or cost required to assemble a product and reducing the need for rework or adjustments. These algorithms can also help to ensure that the intermediate states of the product are stable, reducing the risk of safety hazards or other issues that could arise from assembly errors.
 
@@ -135,9 +143,9 @@ Furthermore, assembly sequencing algorithms can be applied in a variety of manuf
 
 As stated above, assembly sequencing is the process of determining the order in which parts should be assembled to create a product. This problem is made challenging by the many factors that need consideration, from the compatibility of parts, to the availability of tools and resources at certain points in the assembly process, to constraints made on intermediary assemblies.
 
-Traditionally, assembly sequencing problems have been solved using heuristic methods which often produce near-optimal or occasionally, even optimal solutions. These heursitics typically exploit a characteristic of the cost structure specific to their given problem and so are effectively based on rules of thumb or experience, which do not generalize.
+Traditionally, assembly sequencing problems have been solved using heuristic methods which often produce near-optimal or occasionally, even optimal solutions. These heuristics typically exploit a characteristic of the cost structure specific to their given problem and so are effectively based on rules of thumb or experience, which do not generalize.
 
-Our key insight is a reformulation which views assembly sequencing as a sequential decision-making problem, which simplifies to an optimal control for deterministic settings. Utilzing tools from Dynamic Programming and Deep Reinforcement Learning (RL), we showcase results that surpass the state-of-the-art and provide solutions for large structures which have been previosuly computationally intractable. Furthermore, this framework is not only capable of handling stochastic settings, but also arbitrary cost structures. 
+Our key insight is a reformulation which views assembly sequencing as a sequential decision-making problem, which simplifies to an optimal control for deterministic settings. Utilizing tools from Dynamic Programming and Deep Reinforcement Learning (RL), we showcase results that surpass the state-of-the-art and provide solutions for large structures which have been previously computationally intractable. Furthermore, this framework is not only capable of handling stochastic settings, but also arbitrary cost structures. 
 
 \color{red}
 [paragraph which does an overview of what is included in this paper. Like, we discuss our formalism and talk about the simulation and experiments that we run, etc.]
@@ -147,15 +155,12 @@ Mention DQNs
 
 %===============================================================================
 
-\section{Preliminaries}
-To appropriately discuss our method and results, it is useful to discuss related papers, and the basics of the Integer Linear Programming, the Mixed Integer Programming, and Reinforcement Learning (RL) frameworks.
+\section{Preliminaries and Motivation}
+{\color{red}[Introductory sentence]} In the biological field, Assembly Sequencing methods are often  utilized for genomics and DNA sequencing~\citep{Miller2010}\citep{Dohm2007}\citep{WarnkeSommer2016}. However, these algorithms primarily  utilize considerations specific to the biological setting. Most notably, the ordering of elements in the finished structure is profoundly important, the form of the final assembly is not always known apriori, and there is no obvious cost structure. As such, many of these methods are not easily adapted to work with robotic systems for automated manufacturing and production tasks.
 
-\subsection{Related Work (Name it "Background" instead?)}
-In the biological field, Assembly Sequencing methods are often  utilized for genomic and DNA sequencing \citep{Miller2010}\citep{Dohm2007}\citep{WarnkeSommer2016}. However, these algorithms primarily  utilize considerations specific to the biological setting. Most notably, the ordering of elements in the finished structure is profoundly important, the form of the final assembly is not always known apriori, and there is no obvious cost structure. As such, many of these methods are not easily adapted to work with robotic systems for automated manufacturing and production tasks.
+Some work from has been from the point of view of the manufacturing sciences, but these methods often rely on heuristics specific to a given cost structure or fail to be computationally tractable for large scenarios. Methods that employ Monte Carlo Tree Search~\citep{Giorgio2018a} often fail to find the true optimal strategy, as they primarily operate as a blind search through a solution space. A similar paper which attempted to utilize Q-Learning~\citep{Giorgio2018} failed to generalize to more diverse settings than those directly posed in their paper, and additionally was computationally intractable for large structures.
 
-Some work from has been from the point of view of the manufacturing sciences, but these methods often rely on heursitics specific to a given cost structure or fail to be computationally tractable for large scenarios. Methods that employ Monte Carlo Tree Search~\citep{Giorgio2018a} often fail to find the true optimal strategy, as they promarily operate as a blind search through a solution space. A similar paper which attempted to utilize Q-Learning~\citep{Giorgio2018} failed to generalize to more diverse settings than those directly posed in their paper, and additionally was computationally intractable for large structures.
-
-The best result in line with this work is that of \citep{Culbertson2019} which utilizes Integer Linear Programming and Mixed Integer Linear Programming to pose the assembly sequence as an optimal control problem, but is constricted to a very specific form of dynamics and cost structure. However, due to this work's promise of optimal sequences, this paper will be treated as state-of-the-art.
+The best result in line with this work is that of~\citep{Culbertson2019} which utilizes Integer Linear Programming and Mixed Integer Linear Programming to pose the assembly sequence as an optimal control problem, but is constricted to a very specific form of dynamics and cost structure. However, due to this work's promise of optimal sequences, this paper will be treated as state-of-the-art.
 
 
 %===============================================================================
@@ -163,45 +168,41 @@ The best result in line with this work is that of \citep{Culbertson2019} which u
 \section{Our Method}
 The focus of this paper will be on performing assembly planning for manufacturing or construction environments, with pre-provided reward structures. Observe that many choices of reward function exist. For example, it could represent the time required to perform a given task, or even the cost associated with performing certain tasks during construction. Note that minimizing a cost function is equivalent to maximizing a reward function if we set $R(s,a) = -C(s,a)$ where $R$ is the reward for the given state $s$ and action $a$ and $C$ is a similarly defined cost function. As such, this framework can handle such generic reward functions, making it much more versatile than previous works.
 
-Observe that when assembling a product, only the final state (i.e. the structure of the final product) is fixed, as the goal is always to produce the fully assembled structure or product. As such, it is often useful to flip this task, and do \emph{Assembly by Disaossembly}, where the initial state $s_0$ of the system is the fully constructed structure, and the actions $a$ are the removal of pieces or connections. Our primary insight is a smart reformulation of this disassembly problem to a sequential decision-making problem. We pose this final assembled structure as the graph $\mathcal{G}$, where different nodes in the graph correspond to different parts in the assembly, and the edges between these nodes correspond to connections required to connect these parts together in the finished product, as seen in Fig.~\ref{fig: G}.
+Observe that when assembling a product, only the final state (i.e. the structure of the final product) is fixed, as the goal is always to produce the fully assembled structure or product. As such, it is often useful to flip this task, and do \emph{Assembly by Disassembly}, where the initial state $s_0$ of the system is the fully constructed structure, and the actions $a$ are the removal of pieces or connections. Our primary insight is a smart reformulation of this disassembly problem to a sequential decision-making problem. We pose this final assembled structure as the graph $\mathcal{G}$, where different nodes in the graph correspond to different parts in the assembly, and the edges between these nodes correspond to connections required to connect these parts together in the finished product, as seen in Fig.~\ref{fig: G}.
 
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.4\textwidth]{figs/Fully Assembled.jpg}
-      \caption{A simple example for a Full Assembly Graph $\mathcal{G}$ with 3 Parts and 3 Connections}
+    \includegraphics[width=0.4\textwidth]{figs/FullyAssembled.eps}
+      \caption{A simple example for a Full Assembly Graph $\mathcal{G}$ with 4 Parts/Nodes and 4 Connections/Edges}
       \label{fig: G}
 \end{figure}
 
 
-We formulate the assembly sequencing problem as a sequential decision-making problem, which can be modeled via the Markov Decision Process (MDP) defined by the tuple $\left\langle s_i, \mathcal{S}, \mathcal{A}, \mathcal{T}, R\right\rangle$, where $s_i$ is the deterministic initial state, $\mathcal{S}$ and $\mathcal{A}$ are state and action spaces respectively, $\mathcal{T}: \mathcal{S} \times \mathcal{S} \times \mathcal{A} \rightarrow [0,1]$ is the probability transition function, $R: \mathcal{S} \times \mathcal{A} \rightarrow \mathbb{R}$ gives the reward for a given transition. The agent acts with a stochastic policy $\pi: \mathcal{S} \rightarrow P(\mathcal{A})$, generating a sequence of state-action-reward transitions or trajectory.
-
-\sout{$\tau:=\left(s_k, a_k, r_k\right)_{k \geq 0}$ with probability $p_\pi(\tau)$ and corresponding return $R(\tau):=\sum_{k \geq 0}  r_k$.} 
-
-The standard objective is then to find a return-maximizing policy that satisfies Eqn.~\ref{eq:optimal_pi}.
+We formulate the assembly sequencing problem as a sequential decision-making problem, which can be modeled via the Markov Decision Process (MDP) defined by the tuple $\left\langle s_i, \mathcal{S}, \mathcal{A}, \mathcal{T}, R\right\rangle$, where $s_i$ is the deterministic initial state, $\mathcal{S}$ and $\mathcal{A}$ are state and action spaces respectively, $\mathcal{T}: \mathcal{S} \times \mathcal{S} \times \mathcal{A} \rightarrow [0,1]$ is the probability transition function, $R: \mathcal{S} \times \mathcal{A} \rightarrow \mathbb{R}$ gives the reward for a given transition. The agent acts with a stochastic policy $\pi: \mathcal{S} \rightarrow P(\mathcal{A})$, generating a sequence of state-action-reward transitions or trajectory. The standard objective is then to find a return-maximizing policy that satisfies Eqn.~\ref{eq:optimal_pi}.
 
 \begin{equation} \label{eq:optimal_pi}
-    \pi^* = \argmax_{\pi} \mathbb{E}_{\pi, \tau}\left [\sum_{t=1}^{\tau} R(s_t,a_t) \bigg| 
+    \pi^* = \argmax_{\pi} \mathbb{E}_{\pi, \tau}\left [\sum_{t=1}^{\tau} R(s_t,a_t) \bigg|
     \begin{array}{c}
-        s_0\\
+        s_0=s_i\\
         s_{t+1}\sim \mathcal{T}(s_{t+1} | s_t, a_t)\\
-        a_t\sim \pi(s_t)
+        a_t\sim \pi(\cdot | s_t)
     \end{array}
     \right ]
 \end{equation}
 
 
 %-----------------NEW---------------------
-In the robotic construction setting, the deterministic intial state $s_i$ corresponds to the fully assembled structure, the action space $\mathcal{A}$ where $a \in \mathcal{A}$ corresponds to the action of removing a connection from the assembly graph $\mathcal{G}$, and the state space $\mathcal{S}$ comprised of $s \in \mathcal{S}$ which denote semi-connected subassemblies which include only a subset of the edges in $\mathcal{G}$. Observe, that under this definition of state and action the mapping to the next state $s_{t+1}$ from a given state $s_t$ and action $a_t$ is deterministic, meaning that $\mathcal{T}(s_{t+1} | s_t, a_t) = 1$ for the appropriate $s_{t+1}$ and $\mathcal{T}(s_{t+1} | s_t, a_t) = 0$ otherwise. Additinally, as there are a finite number of edges in the full assembly, the disassembly process will produce trajectories of length $\tau$, where $\tau$ is the number of edges in the graph $\mathcal{G}$. As such, the return-maximizing policy is $\pi^*=\argmax_\pi \mathbb{E}_{a_t\sim\pi(s_t), s_{t+1}\sim\mathcal{T}}[\sum_{t=1}^{\tau}R(s_t, a_t)]$ where $s_0 = s_i$ as previosuly defined. 
+In the robotic construction setting, the deterministic initial state $s_i$ corresponds to the fully assembled structure, the action space $\mathcal{A}$ where $a \in \mathcal{A}$ corresponds to the action of removing a connection from the assembly graph $\mathcal{G}$, and the state space $\mathcal{S}$ comprised of $s \in \mathcal{S}$ which denote semi-connected subassemblies which include only a subset of the edges in $\mathcal{G}$. Observe, that under this definition of state and action the mapping to the next state $s_{t+1}$ from a given state $s_t$ and action $a_t$ is deterministic, meaning that $\mathcal{T}(s_{t+1} | s_t, a_t) = 1$ for the appropriate $s_{t+1}$ and $\mathcal{T}(s_{t+1} | s_t, a_t) = 0$ otherwise. Additionally, as there are a finite number of edges in the full assembly, the disassembly process will produce trajectories of length $\tau$, where $\tau$ is the number of edges in the graph $\mathcal{G}$. As such, the return-maximizing policy is $\pi^*=\argmax_\pi \mathbb{E}_{a_t\sim\pi(\cdot|s_t), s_{t+1}\sim\mathcal{T}(\cdot | s_t, a_t)}[\sum_{t=1}^{\tau}R(s_t, a_t)]$ where $s_0 = s_i$ as previously defined. 
 %----------------------------------------
 
 Therefore, we can simplify Eqn.~\ref{eq:optimal_pi} to the following,
 \begin{equation} \label{eq:optimization}
-    \begin{aligned} 
+    \begin{aligned}
         \max_{\pi} \quad & \sum_{t=0}^{\tau}{R(s_t,a_t)}\\
-        \textrm{s.t.} \quad & a_t \sim \pi(s_t)
-        \textrm{s.t.} \quad & \mathcal{T}(s_{t+1}|s_t,a_t) = 1\\
-        \textrm{s.t.} \quad & s_0 = s_i
+        \textrm{s.t.} \quad & a_t \sim \pi(\cdot|s_t) \\
+        & \mathcal{T}(s_{t+1}|s_t,a_t) = 1\\
+        & s_0 = s_i
     \end{aligned}
 \end{equation}
 
@@ -209,17 +210,36 @@ Under this specified setting, the state-action of this MDP is illustrated by a d
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.3\textwidth]{figs/Subassembly Tree Generation.jpg}
-  \caption{The directed tree graph $\mathcal{H}$ for the disassembly of a 4 Part Structure}
+\includegraphics[width=0.3\textwidth]{figs/SubassemblyTreeGeneration.eps}
+  \caption{The directed tree graph $\mathcal{H}$ for the disassembly of a 4-Connection Structure}
   \label{fig: treeGen}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics{figs/SubassemblyTreeGeneration.eps}
+        \caption{The directed tree graph $\mathcal{H}$ for the disassembly of a 4-Connection Structure}
+        \label{fig: treeGen}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics{figs/ConsolidatedSubassemblyTreeGeneration.eps}
+        \caption{The \emph{Consolidated} directed tree graph $\mathcal{H}$ for the disassembly of a 4 Part Structure}
+        \label{fig: treeGen2}
+    \end{subfigure}
+    \caption{Two examples of optimal paths through $\mathcal{H}$ with different Reward functions}
+    \label{fig:TreeGens}
 \end{figure}
 
 Observe that this definition of State is isomorphic to the ordering of edge removal, and so states can be effectively combined. As such, the expansion rate of the tree $\mathcal{H}$ is greatly reduced and $\mathcal{H}$ instead resembles Fig.~\ref{fig: treeGen2}.
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.3\textwidth]{figs/Consolidated Subassembly Tree Generation.jpg}
-  \caption{The Consolidated tree graph  $\mathcal{H}$ for the disassembly of a 4 Part Structure}
+\includegraphics[width=0.3\textwidth]{figs/ConsolidatedSubassemblyTreeGeneration.eps}
+  \caption{The Consolidated tree graph $\mathcal{H}$ for the disassembly of a 4 Part Structure}
   \label{fig: treeGen2}
 \end{figure}
 
@@ -243,17 +263,17 @@ Note that in Fig.~\ref{fig:cnstrnt}, the equivalent states are not consolidated 
 As laid out in the previous section, Dynamic Programming can be easily utilized for solving this problem. Utilizing the Bellman optimality principle, a recursive formula can be constructed, which produces the optimal value function of the Markov decision process (MDP), effectively reinventing dynamic programming. The Bellman optimality principle states that the optimal value function $V^*(s)$ satisfies Eqn.~\ref{eq:value}.
 
 \begin{equation} \label{eq:value}
-    V(s) = \max_{a \in \mathcal{A}} \left[\mathcal{R}(s,a) + \gamma \sum_{s' \in \mathcal{S}} \mathcal{T}(s,a,s') V(s')\right]    
+    V(s) = \max_{a \in \mathcal{A}} \left[R(s,a) + \gamma \sum_{s' \in \mathcal{S}} \mathcal{T}(s,a,s') V(s')\right]
 \end{equation}
 
-where $\mathcal{R}(s,a)$ is the expected reward of taking action $a$ in state $s$, $\mathcal{T}(s,a,s')$ is the transition probability from state $s$ to state $s'$ after taking action $a$, $\gamma$ is the discount factor, and $\mathcal{A}$ is the set of available actions in state $s$.
+where $R(s,a)$ is the expected reward of taking action $a$ in state $s$, $\mathcal{T}(s,a,s')$ is the transition probability from state $s$ to state $s'$ after taking action $a$, $\gamma$ is the discount factor, and $\mathcal{A}$ is the set of available actions in state $s$.
 
 The Bellman optimality principle states that the optimal value of a state $s$ is equal to the maximum expected return that can be obtained by taking any action $a$ in that state and then following the optimal policy thereafter. This principle forms the basis of the value iteration algorithm \ref{alg:value_iteration}.
 \begin{algorithm}[H]
     \caption{Value Iteration Algorithm}
     \label{alg:value_iteration}
     \begin{algorithmic}[1]
-        \Require MDP $(\mathcal{S}, \mathcal{A}, \mathcal{T}, \mathcal{R}, \gamma)$, 
+        \Require MDP $(\mathcal{S}, \mathcal{A}, \mathcal{T}, R, \gamma)$, 
         \Require $\epsilon > 0$  (Convergence Condition), $N$ (Maximum Number of Iterations)
         \Ensure $\pi$ (Deterministic Policy) s.t. $\pi \approx \pi^*$
         \Ensure Optimal Value Function $V(s)$
@@ -261,7 +281,7 @@ The Bellman optimality principle states that the optimal value of a state $s$ is
         \For{$k=0,1,2,...,N$}
         \State $\Delta \gets 0$
         \For{all $s \in \mathcal{S}$}
-        \State $V_{k+1}(s) \gets \max_{a \in \mathcal{A}} \left [ \mathcal{R}(s,a) + \gamma \sum_{s' \in \mathcal{S}} \mathcal{T}(s' | s,a) V_k(s') \right ]$
+        \State $V_{k+1}(s) \gets \max_{a \in \mathcal{A}} \left [R(s,a) + \gamma \sum_{s' \in \mathcal{S}} \mathcal{T}(s' | s,a) V_k(s') \right ]$
         \State $\Delta \gets \max {\Delta, |V_{k+1}(s) - V_k(s)|}$
         \EndFor
         \If{$\Delta < \epsilon$}
@@ -299,11 +319,18 @@ such that a given state $s$ is indicated via a vector $s \in \mathbf{R}^n$ where
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=0.5\textwidth]{figs/DQN Architecture.jpg}
+\includegraphics[width=0.5\textwidth]{figs/DQNArchitecture.eps}
   \caption{An overview of the DQN Architecture}\label{fig: DQN}
 \end{figure}
 
 {\color{red}[Forgot to mention $\epsilon$-greedy!]}
+\begin{equation}
+    \pi(a \mid \hat{s})= \begin{cases}
+    \argmax_a Q(\hat{s}, a) & \text { with Probability } 1-\epsilon \\ 
+    a \sim Unif\left(\mathcal{A}_{\hat{s}}\right) & \text { with Probability }\epsilon
+    \end{cases}
+\end{equation}
+where $\mathcal{A}_{\hat{s}}$ is the action space available at the given state $\hat{s}$, which in the robotic manufacturing setting translates to the edges remaining in the subassembly $\hat{s}$.
 
 %===============================================================================
 
@@ -327,25 +354,25 @@ Utilizing the value iteration method, an optimal path from the start of the tree
 \end{figure}
 
 
-With the method established, the next step was to construct complex structures as seen in Fig.~\ref{fig:structs}, and to show the usefulness of this result, we compare it to the State of the Art ILP solution presented by \citet{Culbertson2019} in Table~\ref{table:res}.
+With the method established, the next step was to construct complex structures as seen in Fig.~\ref{fig:structs}, and to show the usefulness of this result, we compare it to the State of the Art ILP solution presented by~\citet{Culbertson2019} in Table~\ref{table:res}.
 
 \begin{figure}[h!]
     \centering
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{figs/2x3.png}
+        \includegraphics[width=\textwidth]{figs/2x3.eps}
         \caption{"2x3" Structure}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{figs/lattice.png}
+        \includegraphics[width=\textwidth]{figs/Lattice.eps}
         \caption{"Lattice" Structure}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{figs/hubble.png}
+        \includegraphics[width=\textwidth]{figs/Hubble.eps}
         \caption{"Hubble" Structure"}
     \end{subfigure}
     \caption{The example structures evaluated in Table~\ref{table:res}}
@@ -357,14 +384,14 @@ With the method established, the next step was to construct complex structures a
     \centering
     \begin{tabular}{|l|l|ll|}
     \hline
-    \multirow{2}{*}{} & \multicolumn{1}{c|}{\textbf{Integer Linear}} & \multicolumn{2}{c|}{\textbf{Our Method}} \\ \cline{3-4} 
+    \multirow{2}{*}{} & \multicolumn{1}{c|}{\textbf{Integer Linear}} & \multicolumn{2}{c|}{\textbf{Dynamic Programming method}} \\ \cline{3-4} 
         & \multicolumn{1}{c|}{\textbf{Programming}~\citep{Culbertson2019}} & \multicolumn{1}{l|}{\textbf{Graph Generation}} & \textbf{Value Iteration} \\ \hline
     \textbf{2x3} &  & \multicolumn{1}{l|}{0.069551 s} & 0.001235 s \\ \hline
     \textbf{Lattice} & \begin{tabular}[c]{@{}l@{}}Minimum-time: 4s \\ Minimum-travel: 5800s\end{tabular} & \multicolumn{1}{l|}{1.319223 s} & 0.035178 s \\ \hline
     \textbf{Hubble} & \begin{tabular}[c]{@{}l@{}}Minimum-time: 5000s \\ Minimum-travel: 20000s\end{tabular} & \multicolumn{1}{l|}{107.806627 s} & 0.648012 s \\ \hline
     \end{tabular}
     \hfill
-    \caption{Comparison of Run Times for our Value Iteration method against \citet{Culbertson2019}}
+    \caption{Comparison of Run Times between our Dynamic Programming method with the ILP method used in ~\citet{Culbertson2019}. The ILP paper utilized two cost structures, with one denoting the minimum time taken, while the other utilized a psuedo minimum fuel objective, simplified to minimum distance traveled. Constraints in the ILP were translated to sequential constraints for the Dynamic Programming method.}
     \label{table:res}
 \end{table}
 
@@ -373,7 +400,7 @@ As seen in the table, our method converges to the solution much faster than the 
 %===============================================================================
 
 \section{Conclusion}
-As we were able to reproduce the results seen in \citet{Culbertson2019}, we can be confident that our method is capable of producing optimal results. This is intuitive, as our reframing of the assembly sequencing problem as a sequential decision-making problem follows from the structure of the problem. At a given point in an assembly procedure, the goal is to identify the next part to attach to the subassembly in order to minimize some cost incurred over the course of the entire assembly procedure, whether that is in terms of time taken or minimizing some kind of fuel expended to perform each action.
+As we were able to reproduce the results seen in~\citet{Culbertson2019}, we can be confident that our method is capable of producing optimal results. This is intuitive, as our reframing of the assembly sequencing problem as a sequential decision-making problem follows from the structure of the problem. At a given point in an assembly procedure, the goal is to identify the next part to attach to the subassembly in order to minimize some cost incurred over the course of the entire assembly procedure, whether that is in terms of time taken or minimizing some kind of fuel expended to perform each action.
 
 While our method is capable of producing optimal results, it can primarily only operate on small structures, as the size of the state-action space $\mathcal{H}$ grows very quickly, even with the state consolidation improvement. As such, Heuristic methods will have to be utilized for especially large structures. Utilizing this same MDP framework, a Deep Q Network (DQN) would be quite sufficient for this task. A DQN is a reinforcement learning algorithm that uses a deep neural network to approximate the Q-function of an agent. This deep neural network structure allows the DQN to handle high-dimensional input spaces and in our case, the ability to learn directly from raw state-action-reward data. The output of this DQN would be a vector $q \in \mathbf{R}^n$ with $q_i$ indicating an estimate of the Q-value of the given action $i$ (i.e. removal of edge $i$). Observe that as this method returns q-values, and so any constraints placed on state transitions can still be employed. Additionally, a DQN employs the use of an experience replay buffer during training to reduce correlations between consecutive updates of the network. While this method is probably sufficient for this problem, additional modifications can supercharge the DQN algorithm, such as the use of double Q-learning, prioritized experience replay, or dueling network architectures.
 
