@@ -1,0 +1,11 @@
+
+
+
+
+
+Recent work on combined task and motion planning has shown promising results by dividing large structures into smaller subproblems and provides a useful framework for expanding to multi-agent scenarios, but is sensitive to the choice of subproblem separation, thus fails to produce globally optimal results and can sometimes even label the optimal solution as infeasible~\citep{Hartmann2023}.
+
+... such as In-Space Assembly~(ISA) with a minimum fuel objective. After NASA successfully performed small-scale ISA operations with the Hubble Telescope and the International Space Station~(ISS), there have been efforts in developing newer robotic technologies~\citep{Zhihui2021} which expand these capabilities to larger, more sophisticated structures such as Asteroid Redirect Vehicles, Artificial Gravity Vehicles, Space Docks, and Large Scale Space Telescopes~\citep{Belvin2016, Mukherjeea2019}. The ISA 
+
+
+line 180
