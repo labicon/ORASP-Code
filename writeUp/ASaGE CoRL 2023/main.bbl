@@ -1,0 +1,49 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Miller et~al.(2010)Miller, Koren, and Sutton]{Miller2010}
+J.~R. Miller, S.~Koren, and G.~Sutton.
+\newblock Assembly algorithms for next-generation sequencing data.
+\newblock \emph{Genomics}, 95\penalty0 (6):\penalty0 315--327, jun 2010.
+\newblock \doi{10.1016/j.ygeno.2010.03.001}.
+
+\bibitem[Dohm et~al.(2007)Dohm, Lottaz, Borodina, and Himmelbauer]{Dohm2007}
+J.~C. Dohm, C.~Lottaz, T.~Borodina, and H.~Himmelbauer.
+\newblock {SHARCGS}, a fast and highly accurate short-read assembly algorithm
+  for de novo genomic sequencing.
+\newblock \emph{Genome Research}, 17\penalty0 (11):\penalty0 1697--1706, oct
+  2007.
+\newblock \doi{10.1101/gr.6435207}.
+
+\bibitem[Warnke-Sommer and Ali(2016)]{WarnkeSommer2016}
+J.~Warnke-Sommer and H.~Ali.
+\newblock Graph mining for next generation sequencing: leveraging the assembly
+  graph for biological insights.
+\newblock \emph{{BMC} Genomics}, 17\penalty0 (1), may 2016.
+\newblock \doi{10.1186/s12864-016-2678-2}.
+
+\bibitem[Giorgio and {Filmon Yacob}(2018{\natexlab{a}})]{Giorgio2018a}
+A.~D. Giorgio and {Filmon Yacob}.
+\newblock Assembly sequences with mcts.
+\newblock 2018{\natexlab{a}}.
+\newblock \doi{10.13140/RG.2.2.11175.44968}.
+
+\bibitem[Giorgio and {Filmon Yacob}(2018{\natexlab{b}})]{Giorgio2018}
+A.~D. Giorgio and {Filmon Yacob}.
+\newblock Assembly sequences with q-learning.
+\newblock 2018{\natexlab{b}}.
+\newblock \doi{10.13140/RG.2.2.35502.41286}.
+
+\bibitem[Culbertson et~al.(2019)Culbertson, Bandyopadhyay, and
+  Schwager]{Culbertson2019}
+P.~Culbertson, S.~Bandyopadhyay, and M.~Schwager.
+\newblock Multi-robot assembly sequencing via discrete optimization.
+\newblock In \emph{2019 {IEEE}/{RSJ} International Conference on Intelligent
+  Robots and Systems ({IROS})}. {IEEE}, nov 2019.
+\newblock \doi{10.1109/iros40897.2019.8968246}.
+
+\end{thebibliography}
