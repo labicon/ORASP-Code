@@ -5,3 +5,4 @@ __pycache__/
 # Generated Results
 *.mp4
 *.gif
+RESULTS/*
