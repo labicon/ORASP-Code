@@ -1,6 +1,5 @@
-# SMART-Code
-Sequential Modeling for Assembly-Planning via Reinforcement-Learning Techniques
-
+# Optimal Robotic Assembly Sequence Planning Code
+Code for the paper: "Optimal Robotic Assembly Sequence Planning: A Sequential Decision-Making Approach"
 
 ## Installation
 You can recreate the python environment used to run these files via:
@@ -16,6 +15,7 @@ pip install -r pipRequirements.txt
 ```
 
 
-## Running
-A few example scenarios are provided inside the Pythin Notebooks. If one of these is ran, along with the helper functions preceding it, the corresponding Graph-Exploration or Learning-Based methods can be deployed on that scenario.
+## Running the Code
+A few example scenarios are provided inside the Python Juypter Notebooks under the "Scenario Initialization" sections. 
+The `GEAP` file is for the Graph-Exploration Assembly Planners (GEAPs) discussed in our "Methods" section, and the `DQN` file holds the Learning-Based methods.
 
