@@ -1,4 +1,7 @@
 # Optimal Robotic Assembly Sequence Planning Code
+ [![License:
+ MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ 
 Code for the paper: "Optimal Robotic Assembly Sequence Planning: A Sequential Decision-Making Approach"
 
 ## Installation
